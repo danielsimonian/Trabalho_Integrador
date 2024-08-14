@@ -1,0 +1,94 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    --amarelo: #ffc72c;
+    --preto: black;
+    --branco: white;
+    --cinza: #d9d9d9
+}
+
+
+aside {
+    display: inline-block;
+    margin: 10px;
+}
+
+.perfil-container {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    border: solid red;
+
+}
+
+.perfil {
+    grid-row: 1 / 2;
+    display: grid;
+    grid-template-rows: 8fr 1fr 1fr 1fr fr;
+    background-color: var(--cinza);
+    text-align: center;
+    align-items: center;
+}
+
+.perfil-img {
+    grid-row: 1 / 2;
+    width: 300px;
+}
+
+.pefil-h1 {
+    grid-row: 2 / 3;
+    align-self: center;
+    justify-self: center;
+}
+
+.perfil-sexo-idade {
+    grid-row: 3 / 4;
+}
+
+.perfil-sexo-idade h2 {
+    display: inline;
+    
+}
+
+.perfil-stars {
+    grid-row: 4 / 5;
+    justify-self: center;
+    width: fit-content;
+}
+
+.material-symbols-outlined:nth-last-child(-n+3) {
+    color: var(--amarelo);
+}
+
+.perfil-stars-nota {
+    text-align: right;
+}
+
+.perfil-main{
+    display: inline-block;
+}
+
+/* perfil botões*/
+.perfil-botoes {
+    grid-row: 2 / 3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 10px; 
+}
+
+.botoes {
+    background-color: var(--amarelo);
+    width: 200px;
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);    
+}
+
+
+.botoes a {
+    text-decoration: none;
+}

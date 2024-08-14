@@ -38,9 +38,14 @@ a {
 }
 
 .nav-list {
-    display: flex;
-    gap: 32px;
+    display: grid;
     list-style: none;
+    text-align: center;
+    grid-template-columns: repeat(4, 0.3fr);
+    background-image: url(../assets/Navbar.png);
+    background-repeat: no-repeat;
+    width: 1fr;
+    height: 50px;
 }
 
 .nav-list a {
@@ -55,24 +60,36 @@ a {
 }
 
 .ul-nav {
+    width: 800px;
+    height: 35px;
     padding: 10px;
-    background-color: white;
+    
 }
 
 
 
 /*------ BARRA DE PESQUISA DO HEADER ------*/
 
-.form {
-    
+
+form {
+    border-radius: 0.3em;
+    padding: 0.3em;
 }
 
-.input {
-    width: 300px;
-    height: 42px;
+form input, form button {
+    font-size: 1.2em;
+    border-radius: 0.2em;
+    border: none;
+    padding: 0.2em;
 }
 
-.img-pesquisa {
-    width: 40px;
-    align-items: center;
+form button {
+    cursor: pointer;
+    background: none;
+    color: whitesmoke;
+}
+
+form button:hover {
+    background-color: whitesmoke;
+    color: #FFC72C;
 }

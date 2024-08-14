@@ -1,58 +1,78 @@
+@charset "UTF-8";
+
 * {
-    padding: 0;
-    margin: 0;
-}
-
-:root {
-    --amarelo: #ffc72c;
-    --preto: black;
-    --branco: white;
-    --cinza: #d9d9d9
+    margin: 0px;
+    padding: 0px;
 }
 
 
-aside {
-    display: inline-block;
-    border: solid red;
+
+
+/*--------------------- HEADER ---------------------*/
+a {
+    font-family: sans-serif;
+    text-decoration: none;
 }
 
-.perfil {
-    display: grid;
-    grid-template-rows: 8fr 1fr 1fr 1fr;
-    background-color: var(--cinza);
-    text-align: center;
+.header {
+    background: #0f0f0f;
+    padding-inline: 15px;
+}
+
+.nav {
+    height: 70px;
+    margin-inline: auto;
+
+    display: flex;
+    justify-content: space-between;
     align-items: center;
 }
 
-.perfil-img {
-    grid-row: 1 / 2;
-    width: 300px;
+
+.logo {
+    font-size: 40px;
 }
 
-.pefil-h1 {
-    grid-row: 2 / 3;
-    align-self: center;
-    justify-self: center;
+.logo:hover {
+    color: white;
 }
 
-.perfil-sexo-idade {
-    grid-row: 3 / 4;
+.nav-list {
+    display: flex;
+    gap: 32px;
+    list-style: none;
 }
 
-.perfil-sexo-idade h2 {
-    display: inline;
+.nav-list a {
+    color: black;
+    font-size: 18px;
+    padding-block: 16px;
+
+}
+
+.nav-list a:hover {
+    color: #FFC72C;
+}
+
+.ul-nav {
+    padding: 10px;
+    background-color: white;
+}
+
+
+
+/*------ BARRA DE PESQUISA DO HEADER ------*/
+
+.form {
     
 }
 
-.perfil-stars {
-    grid-row: 4 / 5;
+.input {
+    width: 300px;
+    height: 42px;
 }
 
-.perfil-main{
-    display: inline-block;
-}
-
-/* perfil botões*/
-.perfil-botoes {
-    grid-row: 5 / 6;
+.img-pesquisa {
+    width: 40px;
+    align-items: center;
 }

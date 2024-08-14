@@ -1,0 +1,78 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+
+/*--------------------- HEADER ---------------------*/
+a {
+    font-family: sans-serif;
+    text-decoration: none;
+}
+
+.header {
+    background: #0f0f0f;
+    padding-inline: 15px;
+}
+
+.nav {
+    height: 70px;
+    margin-inline: auto;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.logo {
+    font-size: 40px;
+}
+
+.logo:hover {
+    color: white;
+}
+
+.nav-list {
+    display: flex;
+    gap: 32px;
+    list-style: none;
+}
+
+.nav-list a {
+    color: black;
+    font-size: 18px;
+    padding-block: 16px;
+
+}
+
+.nav-list a:hover {
+    color: #FFC72C;
+}
+
+.ul-nav {
+    padding: 10px;
+    background-color: white;
+}
+
+
+
+/*------ BARRA DE PESQUISA DO HEADER ------*/
+
+.form {
+    
+}
+
+.input {
+    width: 300px;
+    height: 42px;
+}
+
+.img-pesquisa {
+    width: 40px;
+    align-items: center;
+}

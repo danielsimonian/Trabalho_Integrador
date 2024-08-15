@@ -64,11 +64,9 @@ nav ul li a:hover {
 
 /*-------------- MAIN HOME ---------------*/
 .main-home {
-    width: 100%;
     background: url(../assets/Futebol\ Campo.png);
     background-position: center;
     background-size: cover;
-    height: 100vh;
 }
 
 
@@ -87,7 +85,7 @@ nav ul li a:hover {
     align-items: center;
 }
 
-.container{
+.imgsport{
     max-width: 800px;
     margin: 0 auto;
 }
@@ -256,3 +254,4 @@ p.account a:hover{
     }
 
 }
+

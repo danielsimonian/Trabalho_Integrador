@@ -1,25 +1,50 @@
 * {
     padding: 0;
     margin: 0;
+    font-family: var(--bebas)
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lexend:wght@100..900&family=Smooch+Sans:wght@100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lexend:wght@100..900&family=Manrope:wght@200..800&family=Smooch+Sans:wght@100..900&display=swap');
+
+
+
+@font-face {
+    font-family: arthos;
+    src: url(../font/Arthos\ demo.ttf) format(truetype);
+}
+
+@font-face {
+    font-family: bayon-regular;
+    src: url(../font/Bayon-Regular.ttf) format(truetype);
+}
+
 
 :root {
     --amarelo: #ffc72c;
     --preto: black;
     --branco: white;
-    --cinza: #d9d9d9
+    --cinza: #d9d9d9;
+    --bayon: bayon-regular;
+    --arthos: arthos;
+    --bebas: "Bebas Neue", sans-serif;
+    --manrope: "Manrope", sans-serif;
+
 }
 
+main {
+    display: flex;
+}
 
-aside {
-    display: inline-block;
+/*!aside start!*/
+aside {  
     margin: 10px;
 }
 
 .perfil-container {
     display: grid;
-    grid-template-rows: 1fr 1fr;
-    border: solid red;
+    grid-template-rows: 2fr 1fr;
 
 }
 
@@ -35,6 +60,7 @@ aside {
 .perfil-img {
     grid-row: 1 / 2;
     width: 300px;
+    padding: 20px;
 }
 
 .pefil-h1 {
@@ -66,12 +92,13 @@ aside {
     text-align: right;
 }
 
-.perfil-main{
-    display: inline-block;
+.jogos {
+    display: flex;
+    justify-content: center;
 }
 
 /* perfil botões*/
-.perfil-botoes {
+.perfil-botao {
     grid-row: 2 / 3;
     display: flex;
     flex-direction: column;
@@ -80,15 +107,130 @@ aside {
     margin-top: 10px; 
 }
 
-.botoes {
+.botao {
     background-color: var(--amarelo);
     width: 200px;
-    margin: 10px;
+    margin: 10px 20px 10px 0;
     padding: 10px;
+    text-align: center;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);    
 }
 
+.botao-pequeno {
+    background-color: var(--amarelo);
+    width: 100px;
+    padding: 5x;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);    
+}
 
-.botoes a {
+.botao a, .botao-pequeno a {
     text-decoration: none;
+    font-family: var(--bayon);
+    color: var(--preto);
+    font-weight: 600;
+}
+/*!aside end!*/
+
+/*!perfil-main start!*/
+.perfil-main {
+    flex-grow: 3;
+}
+
+.jogos {
+    display: flex;
+}
+
+.mapa {
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+
+/* ! ESPORTES ! */
+
+.esportes {
+    display: flex;
+    background-color: var(--cinza);
+    border-radius: 8px;
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    gap: 20px;
+}
+
+.texto-grande {
+    font-size: 20px;
+}
+
+.texto-pequeno {
+    font-family: var(--manrope);
+    font-weight: 10;
+    font-size: 15px;
+}
+
+.texto-pequeno-bold {
+    font-family: var(--bebas);
+    font-weight: 900;
+    font-size: 10px;
+}
+
+.dropdown {
+    width: 30px;
+}
+
+.dropdown-cel {
+    display: none;
+}
+
+.group {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.group-icon {
+    width: 20px;
+}
+
+
+
+/*! MOBILE !*/
+@media screen and (max-width:900px) {
+    main {
+        display: flex;
+        flex-direction: column;    
+    }
+
+    aside {
+        margin: 20px;
+    }
+
+    .perfil-main {
+        margin: 20px;
+    }
+
+    .esportes {
+        flex-flow: column;
+    }
+
+    .botao-pequeno {
+        margin-top: -10px;
+    }
+
+    .dropdown {
+        display: none;
+    }
+
+    .dropdown-cel {
+        display: block;
+        width: 30px;
+        margin-top: -20px;
+    }
+
+    .texto-grande {
+        font-size: 25px;
+    }
 }

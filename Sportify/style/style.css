@@ -13,38 +13,37 @@
     background-color: black;
 }
 
-.navbar
-{
+.navbar {
     display: flex;
     align-items: center;
     padding: 20px;
     padding-left: 50px;
     padding-right: 30px;
 }
-nav
-{
+
+nav {
     flex: 1;
     text-align: right;
 }
-nav ul 
-{
+
+nav ul {
     display: inline-block;
     list-style: none;
 }
-nav ul li
-{
+
+nav ul li {
     display: inline-block;
     margin-right: 70px;
 }
-nav ul li a
-{
+
+nav ul li a {
     text-decoration: none;
     font-size: 20px;
     color: white;
     font-family: sans-serif;
 }
-nav ul li button
-{
+
+nav ul li button {
     font-size: 20px;
     color: white;
     outline: none;
@@ -53,12 +52,12 @@ nav ul li button
     cursor: pointer;
     font-family: sans-serif;
 }
-nav ul li button:hover
-{
+
+nav ul li button:hover {
     color: #FFC72C;
 }
-nav ul li a:hover
-{
+
+nav ul li a:hover {
     color: #FFC72C;
 }
 
@@ -87,6 +86,7 @@ nav ul li a:hover
     grid-template-rows: 1fr auto 1fr;
     align-items: center;
 }
+
 .container{
     max-width: 800px;
     margin: 0 auto;
@@ -124,6 +124,7 @@ nav ul li a:hover
     border-top-left-radius: 8px;
     border-bottom-left-radius: 8px;
 }
+
 .form-img{
     flex-basis: 50%;
     background: #FFC72C;
@@ -155,17 +156,20 @@ p{
     border-radius: 35px;
 }
 
-.btn:hover,
+.btn:hover, 
 button:hover{
     color: #FFC72C;
     transition: 0.5s ease;
 }
+
 a{
     text-decoration: none;
 }
+
 .login-form form{
     margin: 30px 0;
 }
+
 .login-form input{
     outline: none;
     margin-bottom: 15px;
@@ -180,8 +184,9 @@ a{
     background: #f7fafc;
     transition: 0.3s ease;
 }
+
 .login-form input:focus{
-    background: transparent;
+    color: black;
     border: 1px solid black;
 }
 
@@ -195,21 +200,23 @@ a{
     font-weight: 600;
     transition: 0.3s ease;
 }
+
 p.account a{
     font-weight: bolder;
-    color: rgb(8, 173, 8);
+    color: white;
 }
+
 p.account a:hover{
     text-decoration: underline;
 }
 
 
-.register {
+.registre {
     text-align: center;
     background-color: black;
-    border-radius: 30px;
-    height: 30px;
-    width: 100px;
+    padding: 3px;
+    border-radius: 10px;
+    
 }
 
 
@@ -220,16 +227,19 @@ p.account a:hover{
     .login-form .main{
         flex-direction: column;
     }
+
     .login-form form{
         margin-top: 30px;
         margin-bottom: 10px;
     }
+
     .form-img{
         border-radius: 0;
         border-bottom-left-radius: 8px;
         border-bottom-right-radius: 8px;
         order: 2;
     }
+
     .content{
         order: 1;
         border-radius: 0;
@@ -240,10 +250,4 @@ p.account a:hover{
     .form-img video{
         width: 100%;
     }
-
-
-
-
-
-
-
+}

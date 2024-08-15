@@ -61,9 +61,189 @@ nav ul li a:hover
 {
     color: #FFC72C;
 }
-a
-{
-    text-decoration: none;
-    color: palevioletred;
-    font-size: 28px;
+
+
+/*-------------- MAIN HOME ---------------*/
+.main-home {
+    width: 100%;
+    background: url(../assets/Futebol\ Campo.png);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
 }
+
+
+/*-------------- FORM LOGIN ---------------*/
+
+.login-form{
+    position: relative;
+    min-height: 100vh;
+    z-index: 0;
+    padding: 30px;
+    justify-content: center;
+    display: grid;
+    font-family: 'poppins',sans-serif;
+
+    grid-template-rows: 1fr auto 1fr;
+    align-items: center;
+}
+.container{
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.login-form h1{
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 400;
+    color: #fff;
+    font-family: 'poppins',sans-serif;
+
+}
+
+.login-form h2{
+    line-height: 40px;
+    margin-bottom: 5px;
+    font-size: 30px;
+    font-weight: 500;
+    color: black;
+    text-align: center;
+}
+
+.login-form .main{
+    position: relative;
+    display: flex;
+    margin: 30px 0;
+}
+
+.content{
+    flex-basis: 50%;
+    padding: 3em 3em;
+    background: #FFC72C;
+    box-shadow: 2px 9px 49px -17px rgba(0,0,0,0.1);
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+.form-img{
+    flex-basis: 50%;
+    background: #FFC72C;
+    background-size: cover;
+    padding: 40px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    align-items: center;
+    display: grid;
+}
+
+
+/*--------- MEXER PARA MUDAR O VIDEO DE TAMANHO ----------*/
+/*
+.form-img video{
+    max-width: 100%;
+}
+*/
+
+
+p{
+    color: black;
+    font-size: 16px;
+    opacity: 1;
+    text-align: center;
+}
+
+.btn,button,input{
+    border-radius: 35px;
+}
+
+.btn:hover,
+button:hover{
+    color: #FFC72C;
+    transition: 0.5s ease;
+}
+a{
+    text-decoration: none;
+}
+.login-form form{
+    margin: 30px 0;
+}
+.login-form input{
+    outline: none;
+    margin-bottom: 15px;
+    font-stretch: 16px;
+    color: #999;
+    text-align: left;
+    padding: 14px 20px;
+    width: 100%;
+    display: inline-block;
+    box-sizing: border-box;
+    border: none;
+    background: #f7fafc;
+    transition: 0.3s ease;
+}
+.login-form input:focus{
+    background: transparent;
+    border: 1px solid black;
+}
+
+.login-form button{
+    font-size: 18px;
+    color: #fff;
+    width: 100%;
+    background: black;
+    border: none;
+    padding: 14px 15px;
+    font-weight: 600;
+    transition: 0.3s ease;
+}
+p.account a{
+    font-weight: bolder;
+    color: rgb(8, 173, 8);
+}
+p.account a:hover{
+    text-decoration: underline;
+}
+
+
+.register {
+    text-align: center;
+    background-color: black;
+    border-radius: 30px;
+    height: 30px;
+    width: 100px;
+}
+
+
+
+
+
+@media(max-width:800px){
+    .login-form .main{
+        flex-direction: column;
+    }
+    .login-form form{
+        margin-top: 30px;
+        margin-bottom: 10px;
+    }
+    .form-img{
+        border-radius: 0;
+        border-bottom-left-radius: 8px;
+        border-bottom-right-radius: 8px;
+        order: 2;
+    }
+    .content{
+        order: 1;
+        border-radius: 0;
+        border-top-left-radius: 8px;
+        border-top-right-radius: 8px;
+    }
+
+    .form-img video{
+        width: 100%;
+    }
+
+
+
+
+
+
+

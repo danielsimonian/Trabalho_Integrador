@@ -8,28 +8,57 @@
     <link rel="shortcut icon" href="assets/Frame 1.png" type="image/x-icon">
     <link rel="stylesheet" href="style/style.css">
 
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+        integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
     <title>Sportify</title>
 </head>
 
-<body>
+
+<body class="body-home">
     <header class="header">
         <div class="navbar">
-            <div>
-                <a href='website.html'><img src="assets/Logo.png" alt="Logo Sportify"></a>
-            </div>
+            <a href='website.html'><img src="assets/Logo.png" alt="Logo Sportify"></a>
             <nav>
                 <ul id='MenuItems'>
                     <li><a href='#'>Home</a></li>
-                    <li><a href='#'>About Us</a></li>
-                    <li><a href='#'>Services</a></li>
-                    <li><a href='#'>Contact</a></li>
-                    <li><button class='loginbtn'
-                            onclick="document.getElementById('login-           form').style.display='block'"
-                            style="width:auto;">Login</button></li>
+                    <li><a href='#'>Esportes</a></li>
+                    <li><a href='#'>Da o play</a></li>
+                    <li><a href='#'>Contato</a></li>
                 </ul>
+
             </nav>
         </div>
     </header>
+
+    <main class="main-home">
+
+        <!-- Login Forms Inicio -->
+            <div class="login-form">
+                <div class="container">
+                    <div class="main">
+                        <div class="content">
+                            <h2>Log In</h2>
+                            <form action="#" method="post">
+                                <input type="text" name="" placeholder="User Name" required autofocus="">
+                                <input type="password" name="" placeholder="User Password" required autofocus="">
+                                <button class="btn" type="submit">
+                                    Login
+                                </button>
+                            </form>
+                            <p class="account">Você não tem uma conta? <a href="#">Registre-se</a></p>
+                        </div>
+                        <div class="form-img">
+                            <video src="assets/videoplayback.mp4" controls width="400px"></video>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <!-- Login Forms Final -->
+
+
+
+
+    </main>
 </body>
 
 </html>

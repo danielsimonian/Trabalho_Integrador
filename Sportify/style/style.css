@@ -9,87 +9,61 @@
 
 
 /*--------------------- HEADER ---------------------*/
-a {
-    font-family: sans-serif;
-    text-decoration: none;
-}
-
 .header {
-    background: #0f0f0f;
-    padding-inline: 15px;
+    background-color: black;
 }
 
-.nav {
-    height: 70px;
-    margin-inline: auto;
-
+.navbar
+{
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    padding: 20px;
+    padding-left: 50px;
+    padding-right: 30px;
 }
-
-
-.logo {
-    font-size: 40px;
+nav
+{
+    flex: 1;
+    text-align: right;
 }
-
-.logo:hover {
-    color: white;
-}
-
-.nav-list {
-    display: grid;
+nav ul 
+{
+    display: inline-block;
     list-style: none;
-    text-align: center;
-    grid-template-columns: repeat(4, 0.3fr);
-    background-image: url(../assets/Navbar.png);
-    background-repeat: no-repeat;
-    width: 1fr;
-    height: 50px;
 }
-
-.nav-list a {
-    color: black;
-    font-size: 18px;
-    padding-block: 16px;
-
+nav ul li
+{
+    display: inline-block;
+    margin-right: 70px;
 }
-
-.nav-list a:hover {
-    color: #FFC72C;
+nav ul li a
+{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    font-family: sans-serif;
 }
-
-.ul-nav {
-    width: 800px;
-    height: 35px;
-    padding: 10px;
-    
-}
-
-
-
-/*------ BARRA DE PESQUISA DO HEADER ------*/
-
-
-form {
-    border-radius: 0.3em;
-    padding: 0.3em;
-}
-
-form input, form button {
-    font-size: 1.2em;
-    border-radius: 0.2em;
+nav ul li button
+{
+    font-size: 20px;
+    color: white;
+    outline: none;
     border: none;
-    padding: 0.2em;
-}
-
-form button {
+    background: transparent;
     cursor: pointer;
-    background: none;
-    color: whitesmoke;
+    font-family: sans-serif;
 }
-
-form button:hover {
-    background-color: whitesmoke;
+nav ul li button:hover
+{
     color: #FFC72C;
+}
+nav ul li a:hover
+{
+    color: #FFC72C;
+}
+a
+{
+    text-decoration: none;
+    color: palevioletred;
+    font-size: 28px;
 }

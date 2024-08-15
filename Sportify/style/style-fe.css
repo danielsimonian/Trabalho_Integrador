@@ -1,0 +1,76 @@
+@charset "UTF-8";
+
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.container{
+    display: flex;
+    width: 100%;
+    height: calc(100vh - 400px);
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+
+}
+
+.container .box{
+    flex-grow: 1;
+    transition: .5s;
+    cursor: pointer;
+}
+
+.container .box:hover {
+    flex-grow: 7;
+    width: 150px; 
+    height: 384px;   
+    background: rgba(0, 0, 0, 0.568);
+    color: white;
+    text-align: justify;    
+}
+
+.container .box:nth-child(1){
+    background-size: 100%;
+    background: no-repeat;
+    background-image: url(../img/Futebol\ de\ Campo.jpg);
+}
+.container .box:nth-child(2){
+    background-size: 100%;
+    background: no-repeat;
+    background-image: url(../img/futSociety.png);
+}
+.container .box:nth-child(3){
+    background-size: 100%;
+    background: no-repeat;
+    background-image: url(../img/futsal.jpg);
+}
+.container .box:nth-child(4){
+    background-size: 100%;
+    background: no-repeat;
+    background-image: url(../img/volei\ praia.jpg);
+}
+.container .box:nth-child(5){
+    background-size: 100%;
+    background: no-repeat;
+    background-image: url(../img/voleibol.jpg);
+}
+.container .box:nth-child(6){
+    background-size: 100%;
+    background: no-repeat;
+    background-image: left;
+    background-image: url(../img/Basquetebol.jpg);
+}
+.container .box:nth-child(7){
+    background-size: 100%;
+    background: no-repeat;
+    background-image: url(../img/tenis.jpg);
+}
+.container .box:nth-child(8){
+    background-size: 100%;
+    background: no-repeat;
+    background-image: url(../img/Beach\ tennis.jpg);
+}

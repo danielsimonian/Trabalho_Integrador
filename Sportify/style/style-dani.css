@@ -187,16 +187,9 @@ aside {
 
 /* ! ESPORTES ! */
 
-.esportes {
+.lista-de-esportes {
     display: flex;
-    background-color: var(--cinza);
-    border-radius: 8px;
-    padding: 10px;
-    justify-content: space-between;
-    align-items: center;
-    margin-right: 10px;
-    margin-bottom: 10px;
-    gap: 20px;
+    flex-direction: column;
 }
 
 .esportes-open {
@@ -227,6 +220,7 @@ aside {
     gap: 40px;
     margin: 0 20px;
     font-size: 12px;
+    padding-bottom: 10px;
 }
 
 /* ESCONDE */

@@ -25,7 +25,7 @@
 
 :root {
     --amarelo: #ffc72c;
-    --preto: black;
+    --preto: #1b1a1a;
     --branco: white;
     --cinza: #d9d9d9;
     --bayon: bayon-regular;
@@ -44,8 +44,14 @@ h4{
     font-family: var(--bebas);
     font-weight: lighter;
     color: white;
-    margin: 10px 0 10px 0 ;
+    margin: 10px 0 10px 0;
 
+}
+
+.tform{
+    margin: 10px 0 10px 0;
+    color: black;
+    font-weight: lighter;
 }
 
 .sex{
@@ -59,13 +65,16 @@ h4{
 }
 #form-ui{
 display: flex;
-justify-content: space-between;
-margin: 0 300px;
+justify-content: space-around;
+
+
+flex-wrap: wrap;
 }
 #form {
     margin-top: 2%;
+    margin-bottom: 2%;
     width: 400px;
-    height: 760px;
+    height: 840px;
     padding: 25px;
     background-color: #1b1a1a;
     border-radius: 10px;
@@ -73,11 +82,20 @@ margin: 0 300px;
 
 #form2 {
     margin-top: 2%;
+    margin-bottom: 2%;
     width: 400px;
-    height: 760px;
+    height: 720px;
     padding: 25px;
     background-color: var(--amarelo);
     border-radius: 10px;
+}
+
+.sbt{
+    color: white;
+}
+
+.t2{
+    color:black
 }
 
 .t3{
@@ -112,64 +130,23 @@ margin: 0 300px;
 #input-area {
     margin-top: 40px;
 }
-
-/* Radio */ 
-.radio-input {
-    display: flex;
-    align-items: center;
-    margin-top: 1em;
-
-}
-
-.radio-input input {
-    appearance: none;
-    width: 2em;
-    height: 2em;
-    background-color: #4b4b4b;
-    border-radius: 50%;
-    transition: .4s ease-in-out;
-}
-
-.radio-input input:hover {
-    cursor: pointer;
-}
-
-.radio-input .circle {
-    position: relative;
-    top: 0.01em;
-    left: -1.1em;
-    width: 0.6em;
-    height: 0.6em;
-    background-color: yellow;
-    scale: 0;
-    border-radius: 10px;
-    transition: .4s ease-in-out;
-}
-
-.radio-input input:checked {
-    box-shadow: none;
-
-}
-
-.radio-input input:checked + .circle {
-    transform: rotate(360deg);
-    scale: 1;
-}
-
-
+/*formulario */
 .form-inp {
+    width: 100%;
     padding: 11px 25px;
     background: transparent;
     border: 1px solid #e3e3e3;
     line-height: 1;
     border-radius: 8px;
+    color: var(--amarelo);
 }
 
 .form-inp2 {
-    padding: 5px 5px;
+    width: 100%;
+    padding: 11px 25px;
     background: transparent;
     border: 1px solid #000000;
-    line-height: 2;
+    line-height: 1;
     border-radius: 8px;
 }
 
@@ -229,7 +206,7 @@ margin: 0 300px;
     background-color: transparent;
     font-weight: 600;
     font-size: 14px;
-    margin: 0;
+    margin-top: 30px;
     padding: 14px 13px 12px 13px;
     border: 0;
     outline: 1px solid black;
@@ -264,11 +241,110 @@ margin: 0 300px;
     text-decoration: none;
 }
 
-
 #bar:before {
     right: -20px;
 }
 
 #bar:after {
     right: -38px;
+}
+
+/* ---------------------------------Radio ---------------------------------*/ 
+.radio-input {
+    display: flex;
+    align-items: center;
+}
+
+.radio-input input {
+    appearance: none;
+    width: 2em;
+    height: 2em;
+    background-color: #4b4b4b;
+    border-radius: 50%;
+    transition: .4s ease-in-out;
+}
+
+.radio-input input:hover {
+    cursor: pointer;
+}
+
+.radio-input .circle {
+    position: relative;
+    top: 0.01em;
+    left: -1.1em;
+    width: 0.6em;
+    height: 0.6em;
+    background-color: yellow;
+    scale: 0;
+    border-radius: 10px;
+    transition: .4s ease-in-out;
+}
+
+.radio-input input:checked {
+    box-shadow: none;
+
+}
+
+.radio-input input:checked + .circle {
+    transform: rotate(360deg);
+    scale: 1;
+}
+
+#form4{
+    margin-top: 2%;
+    margin-bottom: 2%;
+    width: 400px;
+    height: 400px;
+    padding: 25px;
+    background-color: #1b1a1a;
+    border-radius: 10px;
+
+}
+
+.pj{
+    color: white;    
+}
+
+.pf{
+    color: white;
+}
+
+.pf:hover{
+    background-color: var(--amarelo);
+}
+.buttonPF:hover{
+    background-color: var(--amarelo);
+}
+.pj:hover{
+    background-color: var(--amarelo);
+}
+.buttonPJ:hover{
+    background-color: var(--amarelo);
+}
+.buttonPF{
+    text-decoration: none;
+    border-radius: 8px;
+    border: solid 2px white;
+    cursor: pointer;
+    background: none;
+    width: 150px;
+    height: 150px;
+}
+
+.buttonPJ{
+    text-decoration: none;
+    border-radius: 8px;
+    border: solid 2px white;
+    cursor: pointer;
+    background: none;
+    width: 150px;
+    height: 150px;
+}
+
+#buttonsp{
+    margin-top: 20%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
 }

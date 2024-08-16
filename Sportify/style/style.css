@@ -25,7 +25,7 @@
 
 :root {
     --amarelo: #ffc72c;
-    --preto: black;
+    --preto: #1b1a1a;
     --branco: white;
     --cinza: #d9d9d9;
     --bayon: bayon-regular;
@@ -38,7 +38,7 @@
 
 /*--------------------- HEADER ---------------------*/
 .header {
-    background-color: black;
+    background-color:var(--preto);
 }
 
 .navbar {
@@ -277,7 +277,7 @@ p.account a:hover{
 
 /*------------------ ESPORTES ----------------------*/
 .container-card h2{
-    background-color: black;
+    background-color: var(--preto);
     color: white;
     border: solid red;
 }
@@ -311,7 +311,7 @@ p.account a:hover{
 
 .card h3 {
     padding: 20px;
-    background-color: black;
+    background-color: var(--preto);
     color: white;
 }
 
@@ -319,8 +319,11 @@ p.account a:hover{
 /*-------------------- FOOTER ---------------------*/
 .footer {
     font-family: Arial, Helvetica, sans-serif;
-	background-color: black;
-	margin-bottom: -20px;
+	background-color: var(--preto);
+    margin-top: 9%;
+    height: 230px;
+
+
 }
 .social {
 	text-align: center;
@@ -333,7 +336,7 @@ p.account a:hover{
 	display: inline-block;
 	border: 1px solid beige;
 	color: whitesmoke;
-	width: 25px;
+	width: auto;
 	padding: 10px;
 	border-radius: 8px;
 }

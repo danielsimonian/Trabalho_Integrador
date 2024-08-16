@@ -35,6 +35,10 @@
 
 }
 
+a {
+    text-decoration: none;
+}
+
 main {
     display: flex;
 }
@@ -53,10 +57,11 @@ aside {
 .perfil {
     grid-row: 1 / 2;
     display: grid;
-    grid-template-rows: 8fr 1fr 1fr 1fr fr;
+    grid-template-rows: 8fr 1fr 1fr 1fr 1fr;
     background-color: var(--cinza);
     text-align: center;
     align-items: center;
+    justify-content: center;
 }
 
 .perfil-img {
@@ -80,23 +85,50 @@ aside {
     
 }
 
-.perfil-stars {
+/* Stars */ 
+.rating {
     grid-row: 4 / 5;
     justify-self: center;
-    width: fit-content;
 }
 
-.material-symbols-outlined:nth-last-child(-n+3) {
-    color: var(--amarelo);
+.rating:not(:checked) > input {
+    position: absolute;
+    appearance: none;
 }
 
-.perfil-stars-nota {
-    text-align: right;
+.rating:not(:checked) > label {
+    float: right;
+    cursor: pointer;
+    font-size: 30px;
+    color: #666;
 }
+
+.rating:not(:checked) > label:before {
+    content: "★";
+}
+
+.rating > input:checked + label:hover,
+.rating > input:checked + label:hover ~ label,
+.rating > input:checked ~ label:hover,
+.rating > input:checked ~ label:hover ~ label,
+.rating > label:hover ~ input:checked ~ label {
+    color: #e58e09;
+}
+
+.rating:not(:checked) > label:hover,
+.rating:not(:checked) > label:hover ~ label {
+    color: #ff9e0b;
+}
+
+.rating > input:checked ~ label {
+    color: #ffa723;
+}
+
 
 .jogos {
     display: flex;
     justify-content: center;
+    gap: 10px;
 }
 
 /* perfil botões*/
@@ -104,6 +136,7 @@ aside {
     grid-row: 2 / 3;
     display: flex;
     flex-direction: column;
+    gap: 10px;
     align-items: center;
     text-align: center;
     margin-top: 10px; 
@@ -112,10 +145,13 @@ aside {
 .botao {
     background-color: var(--amarelo);
     width: 200px;
-    margin: 10px 20px 10px 0;
     padding: 10px;
     text-align: center;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);    
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.botao:hover, .botao-pequeno:hover {
+    background-color: #fae19e;    
 }
 
 .botao-pequeno {
@@ -123,10 +159,10 @@ aside {
     width: 100px;
     padding: 5x;
     text-align: center;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);    
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);  
 }
 
-.botao a, .botao-pequeno a {
+.botao h3, .botao-pequeno h3 {
     text-decoration: none;
     font-family: var(--bayon);
     color: var(--preto);
@@ -162,6 +198,51 @@ aside {
     margin-bottom: 10px;
     gap: 20px;
 }
+
+.esportes-open {
+    display: grid;
+    grid-template-rows: 2fr 1fr;
+    background-color: var(--cinza);
+    border-radius: 8px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.up {
+    display: flex;
+    background-color: var(--cinza);
+    border-radius: 8px;
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    gap: 20px;
+}
+
+.down {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 40px;
+    margin: 0 20px;
+    font-size: 12px;
+}
+
+/* ESCONDE */
+.down-hide {
+    display: none;
+}
+
+.esportes-open-hide {
+    display: grid;
+    grid-template-rows: 1fr;
+    background-color: var(--cinza);
+    border-radius: 8px;
+    margin-right: 10px;
+    margin-top: 10px;
+} /* FIM DO ESCONDE */
+
 
 .texto-grande {
     font-size: 20px;
@@ -207,10 +288,6 @@ aside {
     }
 
     aside {
-        margin: 20px;
-    }
-
-    .perfil-main {
         margin: 20px;
     }
 

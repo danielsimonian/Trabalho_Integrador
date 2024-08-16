@@ -93,7 +93,6 @@ nav ul li a:hover {
 .login-form h1{
     text-align: center;
     font-size: 2.5rem;
-    font-weight: 400;
     color: #fff;
     font-family: 'poppins',sans-serif;
 
@@ -143,13 +142,6 @@ nav ul li a:hover {
 */
 
 
-p{
-    color: black;
-    font-size: 16px;
-    opacity: 1;
-    text-align: center;
-}
-
 .btn,button,input{
     border-radius: 35px;
 }
@@ -160,13 +152,6 @@ button:hover{
     transition: 0.5s ease;
 }
 
-a{
-    text-decoration: none;
-
-    color: palevioletred;
-    font-size: 28px;
-
-}
 
 .login-form form{
     margin: 30px 0;
@@ -204,8 +189,8 @@ a{
 }
 
 p.account a{
-    font-weight: bolder;
-    color: white;
+    text-decoration: none;
+    color: blue;
 }
 
 p.account a:hover{
@@ -214,16 +199,77 @@ p.account a:hover{
 
 
 .registre {
+    font-size:17px;
     text-align: center;
-    background-color: black;
-    padding: 3px;
-    border-radius: 10px;
-    
 }
 
+/*-------------------- FOOTER ---------------------*/
+.footer
+	 	{
+            font-family: Arial, Helvetica, sans-serif;
+	 		background-color: black;
+	 		margin-bottom: -20px;
+	 	}
+	 	
+
+	 	.social
+	 	{
+	 		text-align: center;
+	 		padding-top: 20px;
+	 		padding-bottom: 20px;
+	 	}
+
+	 	.social a 
+	 	{
+	 		font-size: 20px;
+	 		display: inline-block;
+	 		border: 1px solid beige;
+	 		color: whitesmoke;
+	 		width: 25px;
+	 		padding: 10px;
+	 		border-radius: 8px;
+	 	}
+
+	 	.social a:hover
+	 	{
+            color: black;
+	 		background-color: #FFC72C;
+	 	}
+
+	 	.footer ul 
+	 	{
+	 		list-style: none;
+	 		text-align: center;
+	 		padding-bottom: 30px;
+	 	}
+
+	 	.footer ul li 
+	 	{
+	 		display: inline-block;
+	 		padding: 0px 15px;
+	 	}
+
+	 	.footer ul li a 
+	 	{
+	 		text-decoration: none;
+	 		color: whitesmoke;
+	 		display: inline-block;
+	 		padding: 10px 20px;
+	 	}
+
+	 	.footer ul li a:hover
+	 	{
+	 		color: #FFC72C;
+	 	}
 
 
-
+	 	.copy-right
+	 	{
+	 		text-align: center;
+	 		padding-bottom: 30px;
+	 		color: whitesmoke;
+	 	}
+/*---------------------- MEDIA QUERY ------------------------------------*/
 
 @media(max-width:800px){
     .login-form .main{
@@ -253,5 +299,7 @@ p.account a:hover{
         width: 100%;
     }
 
+    /*footer*/
+    
 }
 

@@ -39,49 +39,236 @@ body{
     background-image: url(../img/background.jpg);
     background-size: cover;
 }
-.container{
-    width: 60%;
-    margin-top: 10%;
-    margin-left: 20%;
-    display: flex;
-    flex-wrap: wrap;
-    height: 400px;
+
+h4{
+    font-family: var(--bebas);
+    font-weight: lighter;
+    color: white;
+    margin: 10px 0 10px 0 ;
+
 }
 
-.box{
-    flex: 1;
-    transition: .5s;
+.sex{
+    font-weight: lighter;
+    margin-right: 5px;
+
+}
+
+.t1{
+    font-family: var(--arthos);
+}
+#form-ui{
+display: flex;
+justify-content: space-between;
+margin: 0 300px;
+}
+#form {
+    margin-top: 2%;
+    width: 400px;
+    height: 760px;
+    padding: 25px;
+    background-color: #1b1a1a;
+    border-radius: 10px;
+}
+
+#form2 {
+    margin-top: 2%;
+    width: 400px;
+    height: 760px;
+    padding: 25px;
+    background-color: var(--amarelo);
+    border-radius: 10px;
+}
+
+.t3{
+    font-family: var(--arthos);
+    color: black;
+
+}
+
+#form-body {
+    right: 25px;
+    left: 25px;
+    width: 350px;
+}
+
+#welcome-lines {
+    text-align: center;
+    line-height: 1;
+}
+
+#welcome-line-1 {
+    color: var(--amarelo);
+    font-weight: 600;
+    font-size: 40px;
+}
+
+#welcome-line-2 {
+    color: #ffffff;
+    font-size: 18px;
+    margin-top: 17px;
+}
+
+#input-area {
+    margin-top: 40px;
+}
+
+/* Radio */ 
+.radio-input {
+    display: flex;
+    align-items: center;
+    margin-top: 1em;
+
+}
+
+.radio-input input {
+    appearance: none;
+    width: 2em;
+    height: 2em;
+    background-color: #4b4b4b;
+    border-radius: 50%;
+    transition: .4s ease-in-out;
+}
+
+.radio-input input:hover {
     cursor: pointer;
 }
 
-.container .box:hover {
-    flex: 3;
-    color: white;
-    text-align: justify;
-    background-image: rgba(0, 0, 0, 0.884);
+.radio-input .circle {
+    position: relative;
+    top: 0.01em;
+    left: -1.1em;
+    width: 0.6em;
+    height: 0.6em;
+    background-color: yellow;
+    scale: 0;
+    border-radius: 10px;
+    transition: .4s ease-in-out;
 }
 
-.container .box:nth-child(1){
-    background-image: url(../img/Futebol\ de\ Campo.jpg);
+.radio-input input:checked {
+    box-shadow: none;
+
 }
-.container .box:nth-child(2){
-    background-image: url(../img/futSociety.png);
+
+.radio-input input:checked + .circle {
+    transform: rotate(360deg);
+    scale: 1;
 }
-.container .box:nth-child(3){
-    background-image: url(../img/futsal.jpg);
+
+
+.form-inp {
+    padding: 11px 25px;
+    background: transparent;
+    border: 1px solid #e3e3e3;
+    line-height: 1;
+    border-radius: 8px;
 }
-.container .box:nth-child(4){
-    background-image: url(../img/volei\ praia.jpg);
+
+.form-inp2 {
+    padding: 5px 5px;
+    background: transparent;
+    border: 1px solid #000000;
+    line-height: 2;
+    border-radius: 8px;
 }
-.container .box:nth-child(5){
-    background-image: url(../img/voleibol.jpg);
+
+.form-inp:first-child {
+    margin-bottom: 15px;
 }
-.container .box:nth-child(6){
-    background-image: url(../img/Basquetebol.jpg);
+
+.form-inp input {
+    width: 100%;
+    background: none;
+    font-size: 13.4px;
+    color: var(--amarelo);
+    border: none;
+    padding: 0;
+    margin: 0;
 }
-.container .box:nth-child(7){
-    background-image: url(../img/tenis.jpg);
+
+.form-inp2 input {
+    width: 100%;
+    background: none;
+    font-size: 13.4px;
+    color: black;
+    border: none;
+    padding: 0px;
+    margin: 0;
 }
-.container .box:nth-child(8){
-    background-image: url(../img/Beach\ tennis.jpg);
+
+.form-inp input:focus {
+    outline: none;
+}
+
+#submit-button-cvr {
+    margin-top: 20px;
+}
+
+#submit-button {
+    display: block;
+    width: 100%;
+    color: var(--amarelo);
+    background-color: transparent;
+    font-weight: 600;
+    font-size: 14px;
+    margin: 0;
+    padding: 14px 13px 12px 13px;
+    border: 0;
+    outline: 1px solid var(--amarelo);
+    border-radius: 8px;
+    line-height: 1;
+    cursor: pointer;
+    transition: all ease-in-out .3s;
+}
+
+#submit-button2 {
+    display: block;
+    width: 100%;
+    color: black;
+    background-color: transparent;
+    font-weight: 600;
+    font-size: 14px;
+    margin: 0;
+    padding: 14px 13px 12px 13px;
+    border: 0;
+    outline: 1px solid black;
+    border-radius: 8px;
+    line-height: 1;
+    cursor: pointer;
+    transition: all ease-in-out .3s;
+}
+
+#submit-button:hover {
+    transition: all ease-in-out .3s;
+    background-color: var(--amarelo);
+    color: #161616;
+    cursor: pointer;
+}
+
+#submit-button2:hover {
+    transition: all ease-in-out .3s;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+#forgot-pass {
+    text-align: center;
+    margin-top: 10px;
+}
+
+#forgot-pass a {
+    color: #868686;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+
+#bar:before {
+    right: -20px;
+}
+
+#bar:after {
+    right: -38px;
 }

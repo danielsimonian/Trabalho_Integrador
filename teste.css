@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+    background-color: #f9f9f9;
+    line-height: 1.6;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #2d3436;
+    padding: 15px 0;
+}
+
+.logo h1 {
+    color: #fff;
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav ul li {
+    margin-left: 30px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.hero {
+    background: url('https://via.placeholder.com/1200x500') no-repeat center center/cover;
+    color: #fff;
+    padding: 150px 0;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.btn {
+    background-color: #00b894;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #019f79;
+}
+
+.services, .sports, .footer {
+    padding: 60px 0;
+    text-align: center;
+}
+
+h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+    color: #2d3436;
+}
+
+.service-grid {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.service-item {
+    background-color: #dfe6e9;
+    padding: 20px;
+    border-radius: 5px;
+    flex: 1;
+}
+
+.sport-cards {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.card {
+    background-color: #dfe6e9;
+    border-radius: 5px;
+    overflow: hidden;
+    flex: 1;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+}
+
+.card h3 {
+    padding: 20px;
+    background-color: #b2bec3;
+    color: #2d3436;
+}
+
+.footer {
+    background-color: #2d3436;
+    color: #fff;
+    padding: 30px 0;
+}
+
+.footer ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.footer ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.footer p {
+    margin-bottom: 20px;
+    font-size: 16px;
+}

@@ -451,6 +451,9 @@ p.account a:hover{
     }
 }
 
+
+
+/*-------- !!NÃO CONSEGUI AUMENTAR O TAMANHO DO INTENS PARA DEIXAR PARA TELAS GRANDES!! ---------*/
 /*-------- Telas Grandes ----------*/
 @media(min-width:1440px) {
     .login-form .main {

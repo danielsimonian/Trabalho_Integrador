@@ -332,6 +332,128 @@ p.account a:hover{
     font-weight: 500;
 }
 
+/*---------------------- PÁGINA PLANOS EMPRESAS ---------------------------*/
+.body-iframeplano {
+    background-color: rgb(43, 43, 43);
+}
+
+
+iframe {
+    width: 100%;
+    height: 500px;
+}
+
+
+/*introdução Pág Compra*/
+.main-geralframe {
+    padding-top: 23px;
+}
+
+.section-cat {
+    border-left: 1px solid white;
+}
+
+.container-cat {
+    margin: auto;
+    color: white;
+}
+
+.container-cat > h1 {
+    padding: 5px;
+    font-size: 1.7em;
+    color: var(--amarelo);
+}
+
+.container-cat > p {
+    padding: 5px;
+    text-align: justify;
+}
+
+.subtitle {
+    padding: 5px;
+    font-size: 0.9em;
+    color: rgba(255, 255, 255, 0.658);
+}
+
+
+/*Nav do iframe da pág Compra*/
+.article-compra {
+    color: white;
+    text-align: center;
+}
+
+.title1-compra {
+    font-size: 2em;
+}
+
+.nav-iframe {
+    margin-top: 10px;
+    background-color: var(--amarelo);
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.nav-iframe > a {
+    font-weight: bolder;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #0F0F0F;
+    text-decoration: none;
+    margin: 10px;
+}
+
+/*Iframes compra css*/
+.section-frame {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.article-basic {
+    background-color: rgba(255, 255, 255, 0.11);
+    border-radius: 5px;
+    color: white;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+}
+
+.div-textCompra {
+    display: block;
+    text-align: center;
+}
+
+.titlecard-frame01 {
+    font-size: 1.3em;
+    text-transform: uppercase;
+}
+
+.title-cardpreço {
+    color: var(--amarelo);
+}
+
+.div-preço {
+    display: flex;
+    justify-content: center;
+    margin: 15px;
+}
+
+.lista-frame {
+    list-style-position: inside;
+}
+
+.article-basic:hover {
+    background-color: rgba(255, 255, 255, 0.137);
+}
+
+.iframegeral {
+    background-color: #0F0F0F;
+}
+
+
 /*-------------------- FOOTER ---------------------*/
 .footer {
     font-family: Arial, Helvetica, sans-serif;
@@ -393,7 +515,7 @@ p.account a:hover{
 
 /*---------------------- MEDIA QUERY ------------------------------------*/
 /*-------- Celular ----------*/
-@media(max-width:800px){
+@media(max-width:799px){
     .login-form .main{
         margin: 10px;
         flex-direction: column;
@@ -439,7 +561,15 @@ p.account a:hover{
         align-items: center;
     }
 
-    
+    /*Iframe Plano*/
+    .iframegeral {
+        height: 860px;
+    }
+    .section-cat{
+        border: none;
+    }
+
+
     /*footer*/
     .footer {
         height: 100%;
@@ -451,3 +581,59 @@ p.account a:hover{
 }
 
 
+@media screen and (min-width: 800px) and (max-width: 1200px) {
+    .section-frame {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin: auto;
+    }
+
+    .section-cat{
+        padding: 3px;
+        display: block;
+        margin: auto;
+        text-align: center;
+        width: 600px;
+    }
+
+    .container-cat > h1{
+        font-size: 2.2em;
+    }
+
+    .iframegeral {
+        margin-top: 30px;
+        height: 720px;
+}
+
+    .main-iframe {
+        height: auto;
+    }
+
+}
+
+@media screen  and (min-width: 1201px) and (max-width: 8000px) {
+    .section-frame {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .section-cat{
+        padding: 3px;
+        display: block;
+        margin: auto;
+        text-align: center;
+        width: 800px;
+    }
+
+    .container-cat > h1{
+        font-size: 2.5em;
+    }
+
+    .iframegeral {
+        margin-top: 50px;
+        height: 300px;
+}
+
+}

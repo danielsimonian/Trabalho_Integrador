@@ -8,6 +8,7 @@
     <link rel="shortcut icon" href="../assets/Frame 1.png" type="image/x-icon">
     <link rel="stylesheet" href="style/style.css">
     <link rel="stylesheet" href="style/style-fe.css">
+    <link rel="stylesheet" href="style/style-dani.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
         integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -16,16 +17,23 @@
 </head>
 
 <body class="body-home">
-    <header class="header">
-        <div class="navbar">
-            <a href='index.html'><img src="assets/Logo-Branca.png" alt="Logo Sportify" class="logo-header"></a>
-            <nav>
-                <ul id='MenuItems'>
-                    <li><a href='index.html'>Home</a></li>
-                    <li><a href='daoplay copy.html'>Da o play</a></li>
-                    <li><a href='planos.html'>Planos Empresas</a></li>
-                </ul>
-            </nav>
+    <header>
+        <div class="div-nav-logo">
+            <a href='index.html'><img src="assets/Logo-Branca.png" alt="Logo Sportify" class="logo-header"></a>    
+        </div>
+        <nav id="menu-itens" class="menu-itens-hide">
+            <ul>
+                <li><a href='index.html'>Home</a></li>
+                <li><a href='daoplay.html'>Da o play</a></li>
+                <li><a href='perfil.html'>Perfil</a></li>
+                <li><a href="planos.html">Planos</a></li>
+                <li><a href='#'>Contato</a></li>
+            </ul>
+        </nav>
+        <div class="div-hamburguer">
+            <span class="material-symbols-outlined" id="menu-hamburguer" onclick="hamburguer()">
+            <svg class="hamburguer" xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px" fill="#e8eaed"><path d="M120-240v-66.67h720V-240H120Zm0-206.67v-66.66h720v66.66H120Zm0-206.66V-720h720v66.67H120Z"/></svg>
+            </span>
         </div>
     </header>
     <div id="form-ui">
@@ -77,43 +85,35 @@
     </div>
     <footer>
         <section class="footer">
-            <div class="social">
-
-                <a href="#"><i class="fa-brands fa-instagram"></i></a>
-
-                <a href="#"><i class="fa-brands fa-facebook"></i></a>
-
-                <a href="#"><i class="fa-brands fa-square-twitter"></i></a>
-
-                <a href="#"><i class="fa-brands fa-youtube"></i></a>
-
-            </div>
-
-
-            <ul>
-
-                <li>
-                    <a href="index.html">Home</a>
-                </li>
-
-                <li>
-                    <a href="daoplay copy.html">Da o Play</a>
-                </li>
-
-                <li>
-                    <a href='planos.html'>Planos Empresas</a>
-                </li>
-
-
-            </ul>
-
-
-            <p class="copy-right">Copyright &copy;2024; Criado por <strong>Guilherme Augusto, Felipe Caldeira e Daniel
-                    Simonian</strong> </p>
-
-
-        </section>
+                <div class="social">
+                    
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        
+                    <a href=""><i class="fa-brands fa-facebook"></i></a>
+        
+                    <a href=""><i class="fa-brands fa-square-twitter"></i></a>
+        
+                    <a href=""><i class="fa-brands fa-youtube"></i></a>
+                </div>
+                <ul>
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="daoplay.html">Da o Play</a>
+                    </li>
+                    <li>
+                        <a href="perfil.html">Perfil</a>
+                    </li>
+                    <li><a href="planos.html">Planos</a></li>
+                    <li>
+                        <a href="#">Contato</a>
+                    </li>
+                </ul>
+                <p class="copy-right">Copyright &copy;2024; Criado por <strong>Daniel Simonian, Felipe Caldeira e Guilherme Augusto</strong> </p>
+            </section>
     </footer>
+    <script src="js/script.js"></script>
 
 
 </body>

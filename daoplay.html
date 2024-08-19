@@ -17,116 +17,105 @@
 </head>
 
 <body class="body-home">
-    <header class="header">
-        <div class="navbar">
-            <a href='index.html'><img src="assets/Logo-Branca.png" alt="Logo Sportify" class="logo-header"></a>
-            <nav>
-                <ul id='MenuItems'>
-                    <li><a href='index.html'>Home</a></li>
-                    <li><a href='daoplay.html'>Da o play</a></li>
-                    <li><a href='planos.html'>Planos Empresas</a></li>
-                </ul>
-            </nav>
+    <header>
+        <div class="div-nav-logo">
+            <a href='index.html'><img src="assets/Logo-Branca.png" alt="Logo Sportify" class="logo-header"></a>    
+        </div>
+        <nav id="menu-itens" class="menu-itens-hide">
+            <ul>
+                <li><a href='index.html'>Home</a></li>
+                <li><a href='daoplay.html'>Da o play</a></li>
+                <li><a href='perfil.html'>Perfil</a></li>
+                <li><a href="planos.html">Planos</a></li>
+                <li><a href='#'>Contato</a></li>
+            </ul>
+        </nav>
+        <div class="div-hamburguer">
+            <span class="material-symbols-outlined" id="menu-hamburguer" onclick="hamburguer()">
+            <svg class="hamburguer" xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px" fill="#e8eaed"><path d="M120-240v-66.67h720V-240H120Zm0-206.67v-66.66h720v66.66H120Zm0-206.66V-720h720v66.67H120Z"/></svg>
+            </span>
         </div>
     </header>
-    <div id="form-ui">
-        <form action="" method="post" id="form">
-            <div id="form-body">
-                <div id="welcome-lines">
-                    <div id="welcome-line-1">
-                        <h3 class="t1">Sportify</h3>
-                    </div>
-                    <div id="welcome-line-2">
-                        <h4 class="sbt">Cadastro do Atleta</h4>
-                    </div>
-                </div>
-                <div id="input-area">
-                    <h4>Nome:</h4>
-                    <div>
-                        <input class="form-inp" placeholder="Nome Completo" type="text" required autofocus="">
-                    </div>
+    <main>
+        <style>
+            main {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                width: 80%;
+                background-color: black;
+                text-align: center;
+                margin: 10px auto;
+                padding: 20px;
+                border-radius: 10px;
+                height: 100vh;
+            }
 
-                    <div class="radio-input">
-                        <h4 class="sex">Sexo:</h4>
-                        <h4 class="sex">Homem</h4>
-                        <input checked="" type="radio" id="value-1" name="value-radio" value="value-1">
-                        <div class="circle">
-                        </div>
-                        <h4 class="sex">Mulher</h4>
-                        <input type="radio" id="value-2" name="value-radio" value="value-2">
-                        <div class="circle">
-                        </div>
-                    </div>
-                    <h4>Data de Nascimento:</h4>
-                    <div>
-                        <input class="form-inp" placeholder="" type="date" required autofocus="">
-                    </div>
-                    <h4>Cidade:</h4>
-                    <div>
-                        <input class="form-inp" placeholder="Cidade" type="text" required autofocus="">
-                    </div>
-                    <h4>Telefone:</h4>
-                    <div>
-                        <input class="form-inp" placeholder="(xx)xxxx-xxxx" type="tel" required autofocus="">
-                    </div>
-                    <h4>Email:</h4>
-                    <div>
-                        <input class="form-inp" placeholder="Email" type="email" required autofocus="">
-                    </div>
-                    <h4>Senha:</h4>
-                    <div>
-                        <input class="form-inp" placeholder="Senha" type="password" required autofocus="">
-                    </div>
-                </div>
-                <div id="submit-button-cvr">
-                    <button id="submit-button" type="submit">Login</button>
-                </div>
-                <div id="forgot-pass">
-                    <a href="#">Esqueu sua Senha?</a>
-                </div>
-                <div id="bar"></div>
-            </div>
-        </form>
+            h1, h2 {
+                color: white;
+            }
+
+            h2 {
+                font-size: 3em;
+                color: #ffc72c;
+                border: solid 1px #ffc72c;
+                border-radius: 5px;
+                padding: 10px;
+            }
+
+            h2:hover {
+                background-color: rgba(255, 255, 255, 0.173);
+            }
+
+            .atleta-clube {
+                display: flex;
+                margin-top: 30px;
+                gap: 20px;
+            }
+        </style>
+        <div>
+            <h1>Quem é você?</h1>
+        </div>
+        <div class="atleta-clube">
+            <a href="daoplay_atleta.html"><div>
+                <h2>Atleta</h2>
+            </div></a>
+            <a href="daoplay_club.html"><div>
+                <h2>Clube</h2>
+            </div></a>
+        </div>
+    </main>
+        
     </div>
     <footer>
         <section class="footer">
-            <div class="social">
-
-                <a href="#"><i class="fa-brands fa-instagram"></i></a>
-
-                <a href=""><i class="fa-brands fa-facebook"></i></a>
-
-                <a href=""><i class="fa-brands fa-square-twitter"></i></a>
-
-                <a href=""><i class="fa-brands fa-youtube"></i></a>
-
-            </div>
-
-
-            <ul>
-
-                <li>
-                    <a href="index.html">Home</a>
-                </li>
-
-                <li>
-                    <a href="daoplay copy.html">Da o Play</a>
-                </li>
-
-                <li>
-                    <a href='planos.html'>Planos Empresas</a>
-                </li>
-
-
-            </ul>
-
-
-            <p class="copy-right">Copyright &copy;2024; Criado por <strong>Guilherme Augusto, Felipe Caldeira e Daniel
-                    Simonian</strong> </p>
-
-
-        </section>
+                <div class="social">
+                    
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        
+                    <a href=""><i class="fa-brands fa-facebook"></i></a>
+        
+                    <a href=""><i class="fa-brands fa-square-twitter"></i></a>
+        
+                    <a href=""><i class="fa-brands fa-youtube"></i></a>
+                </div>
+                <ul>
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="daoplay.html">Da o Play</a>
+                    </li>
+                    <li>
+                        <a href="perfil.html">Perfil</a>
+                    </li>
+                    <li><a href="planos.html">Planos</a></li>
+                    <li>
+                        <a href="#">Contato</a>
+                    </li>
+                </ul>
+                <p class="copy-right">Copyright &copy;2024; Criado por <strong>Daniel Simonian, Felipe Caldeira e Guilherme Augusto</strong> </p>
+            </section>
     </footer>
-
-
+    <script src="js/script.js"></script>
 </body>

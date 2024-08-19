@@ -37,10 +37,50 @@
 
 a {
     text-decoration: none;
+    color: white;
+}
+ul {
+    list-style-type: none;
+  }
+
+.main {
+    display: flex;
 }
 
-main {
+header {
     display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: black;
+    padding: 20px;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    font-size: 25px;
+    letter-spacing: .1em;
+}
+
+nav ul li a:hover {
+    background-color: var(--amarelo);
+    color: var(--preto);
+}
+
+.logo-header {
+    width: 150px;
+}
+
+.menu-itens ul {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    font-size: 1.5em;
+}
+
+.div-hamburguer {
+    display: none;
 }
 
 /*!aside start!*/
@@ -269,15 +309,54 @@ aside {
 
 
 /*! MOBILE !*/
-@media screen and (max-width:800px) {
-    main {
+@media screen and (max-width:932px) {
+    .main {
         display: flex;
-        flex-direction: column;    
+        flex-direction: column;
     }
-    
+
     aside {
-        margin: auto;
-        padding: 0;
+        justify-content: center;
+    }
+
+    header {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+    }
+
+    nav {
+        grid-column: 1 / -1;
+        grid-row: 2 / -1;
+    }
+
+    .menu-itens ul {
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+        text-align: right;
+    }
+
+    .menu-itens-hide {
+        display: none;
+    }
+
+
+    .div-hamburguer {
+        display: inline;
+        grid-column: 2 / -1;
+        justify-self: right;
+    }
+
+    nav ul li a {
+        font-size: 16px;
+    }
+
+    nav ul li a:hover {
+        font-size: 16px;
+        background-color: var(--amarelo);
+        color: var(--preto);
+        padding: 5px;
     }
 
     .esportes {

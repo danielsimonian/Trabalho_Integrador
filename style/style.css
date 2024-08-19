@@ -37,46 +37,7 @@
 
 
 /*--------------------- HEADER ---------------------*/
-.header {
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    background-color:var(--preto);
-    padding: 10px;
-}
 
-.logo-header {
-    width: 170px;
-}
-
-nav {
-    justify-self: right;
-    padding-right: 20px;
-}
-
-nav ul {
-    display: flex;
-    flex-direction: row;
-    gap: 50px;
-}
-
-.div-span {
-    display: none;
-}
-
-nav ul li a {
-    text-decoration: none;
-    font-size: 20px;
-    color: white;
-    font-family: sans-serif;
-}
-
-nav ul li button:hover {
-    color: #FFC72C;
-}
-
-nav ul li a:hover {
-    color: #FFC72C;
-}
 
 
 /*-------------- Body HOME ---------------*/
@@ -502,37 +463,8 @@ iframe {
 
 /*---------------------- MEDIA QUERY ------------------------------------*/
 /*-------- Celular ----------*/
-@media screen and (max-width:800px){
-    header {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-    }
-
-    nav {
-
-    }
-
-    .div-span {
-        display: inline;
-    }
-
-    .navbar {
-        margin: 0;
-        padding: 0;
-    }
-
-    .menu-itens-hide {
-        grid-row: 2 / 3;
-        grid-column: 2 / 3;
-        justify-self: right;
-    }
-
-    .nav ul li {
-        text-align: right;
-        justify-self: right;
-        margin: 0;
-    }
-
+@media screen and (max-width:932px){
+   
 
 
     .login-form .main{

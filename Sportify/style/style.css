@@ -265,7 +265,7 @@ p.account a:hover{
 }
 
 .service-item p {
-    font-family: 'poppins',sans-serif;
+    font-family: var(--bebas);
 }
 
 
@@ -325,6 +325,7 @@ p.account a:hover{
 }
 
 .cards-esportes h3 {
+    font-family: var(--bayon);
     color: black;
     line-height: 40px;
     font-size: 30px;

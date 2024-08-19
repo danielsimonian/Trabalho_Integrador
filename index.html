@@ -17,15 +17,20 @@
 <body class="body-inicio">
     <header class="header">
         <div class="navbar">
-            <a href='index.html'><img src="assets/Logo.png" alt="Logo Sportify"></a>
-            <nav>
-                <ul id='MenuItems'>
-                    <li><a href='index.html'>Home</a></li>
-                    <li><a href='daoplay copy.html'>Da o play</a></li>
-                    <li><a href='#'>Contato</a></li>
-                </ul>
-
-            </nav>
+            <a class="logo-nav" href='index.html'><img src="assets/Logo.png" alt="Logo Sportify"></a>      
+        </div>
+        <nav id="menu-itens" class="menu-itens-hide">
+            <ul id='MenuItems'>
+                <li><a href='index.html'>Home</a></li>
+                <li><a href='daoplay.html'>Da o play</a></li>
+                <li><a href='perfil.html'>Perfil</a></li>
+                <li><a href='#'>Contato</a></li>
+            </ul>
+        </nav>
+        <div  class="div-span">
+            <span class="material-symbols-outlined" id="menu-hamburguer" onclick="hamburguer()">
+            <svg class="hamburguer" xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px" fill="#e8eaed"><path d="M120-240v-66.67h720V-240H120Zm0-206.67v-66.66h720v66.66H120Zm0-206.66V-720h720v66.67H120Z"/></svg>
+            </span>
         </div>
     </header>
 
@@ -132,6 +137,9 @@
                     <li>
                         <a href="daoplay copy.html">Da o Play</a>
                     </li>
+                    <li>
+                        <a href="perfil.html">Perfil</a>
+                    </li>
         
                     <li>
                         <a href="#">Contato</a>
@@ -146,6 +154,7 @@
         
             </section>
     </footer>
+    <script src="js/script.js"></script>
 </body>
 
 </html>

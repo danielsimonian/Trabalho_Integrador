@@ -38,20 +38,20 @@
 
 /*--------------------- HEADER ---------------------*/
 .header {
+    display: flex;
+    padding: 15px;
     background-color:var(--preto);
 }
 
 .navbar {
     display: flex;
     align-items: center;
-    padding: 20px;
-    padding-left: 50px;
-    padding-right: 30px;
 }
 
 nav {
     flex: 1;
     text-align: right;
+    
 }
 
 nav ul {
@@ -392,10 +392,55 @@ p.account a:hover{
     margin: 5px;
 }
 
+.div-span {
+    display: none;
+}
 
 /*---------------------- MEDIA QUERY ------------------------------------*/
 /*-------- Celular ----------*/
 @media(max-width:800px){
+
+    .header {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+        align-items: center;
+        padding: 10px;
+        gap: 10px;
+    }
+
+    .navbar {
+        margin: 0;
+        padding: 0;
+    }
+
+    .div-span {
+        display: inline;
+        justify-self: right;
+        grid-column: 2 / -1;
+    }
+
+    .menu-itens {
+        grid-row: 2 / 3;
+        grid-column: 1 / -1;
+    }
+
+    .menu-itens-hide {
+        display: none;
+    }
+
+    .menu-itens ul {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .menu-itens ul li {
+        text-align: right;
+        margin: 0;
+        padding: 0;
+    }
+
+
     .login-form .main{
         margin: 10px;
         flex-direction: column;

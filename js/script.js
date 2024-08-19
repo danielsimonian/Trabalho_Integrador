@@ -33,3 +33,18 @@ function openClose() {
         }
     }
 
+function hamburguer(){
+    var hamburguer = document.getElementById("menu-itens")
+    
+    if (hamburguer.classList == "menu-itens"){
+        hamburguer.classList.remove("menu-itens")
+        hamburguer.classList.add("menu-itens-hide")
+    } else {
+        if (hamburguer.classList == "menu-itens-hide"){
+            hamburguer.classList.remove("menu-itens-hide")
+            hamburguer.classList.add("menu-itens")
+        }
+    }
+    
+}
+

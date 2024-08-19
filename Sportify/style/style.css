@@ -100,16 +100,11 @@ nav ul li a:hover {
 
 
 /*-------------- FORM LOGIN ---------------*/
-
 .login-form{
     justify-content: center;
     display: grid;
     align-items: center;
-}
-
-.imgsport{
-    max-width: 800px;
-    margin: 0 auto;
+    margin: 10px;
 }
 
 .login-form h1{
@@ -131,7 +126,6 @@ nav ul li a:hover {
 }
 
 .login-form .main{
-    position: relative;
     display: flex;
     margin: 30px 0;
 }
@@ -231,7 +225,7 @@ p.account a:hover{
 .container-services {
     padding: 60px 0;
     text-align: center;
-    max-width: 1090px;
+    width: 1090px;
     border-radius: 10px;
 }
 
@@ -276,12 +270,25 @@ p.account a:hover{
 
 
 /*------------------ ESPORTES ----------------------*/
+.section-esportes {
+    margin-top: 100px;
+}
+
 .cards-esportes {
-    display: flex;
+    text-align: center;
     justify-content: center;
-    align-items: center;
-    height: 100vh;
-     margin: 0;
+    display: flex;
+}
+
+.h2-esportes {
+    font-family: var(--arthos);
+    margin-bottom: 40px;
+    color: black;
+    line-height: 40px;
+    font-size: 30px;
+    font-weight: 500;
+    text-align: center;
+    justify-content: center;
 }
 
 .card {
@@ -295,6 +302,7 @@ p.account a:hover{
     text-align: center;
     font-family: Arial, sans-serif;
 }
+
 .card img {
     width: 100%;
     border-bottom: 5px solid #000;
@@ -385,7 +393,7 @@ p.account a:hover{
 
 
 /*---------------------- MEDIA QUERY ------------------------------------*/
-
+/*-------- Celular ----------*/
 @media(max-width:800px){
     .login-form .main{
         margin: 10px;
@@ -428,8 +436,11 @@ p.account a:hover{
         height: 100%;
         display: flex;
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 
+    
     /*footer*/
     .footer {
         height: 100%;
@@ -440,3 +451,17 @@ p.account a:hover{
     }
 }
 
+
+
+/*-------- !!NÃO CONSEGUI AUMENTAR O TAMANHO DO INTENS PARA DEIXAR PARA TELAS GRANDES!! ---------*/
+/*-------- Telas Grandes ----------*/
+@media(min-width:1440px) {
+    .login-form .main {
+        width: 100%;
+        
+    }
+
+    .cards-esportes {
+
+    }
+}

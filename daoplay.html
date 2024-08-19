@@ -8,54 +8,82 @@
     <link rel="shortcut icon" href="../assets/Frame 1.png" type="image/x-icon">
     <link rel="stylesheet" href="style/style.css">
     <link rel="stylesheet" href="style/style-fe.css">
-    <link rel="stylesheet" href="style/style-dani.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
-    integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="shortcut icon" href="assets/Frame 1.png" type="image/x-icon">
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="shortcut icon" href="assets/Frame 1.png" type="image/x-icon">
     <title>Sportify</title>
 </head>
 
 <body class="body-home">
     <header class="header">
         <div class="navbar">
-            <a class="logo-nav" href='index.html'><img src="assets/Logo.png" alt="Logo Sportify"></a>      
-        </div>
-        <nav id="menu-itens" class="menu-itens-hide">
-            <ul id='MenuItems'>
-                <li><a href='index.html'>Home</a></li>
-                <li><a href='daoplay.html'>Da o play</a></li>
-                <li><a href='perfil.html'>Perfil</a></li>
-                <li><a href='#'>Contato</a></li>
-            </ul>
-        </nav>
-        <div  class="div-span">
-            <span class="material-symbols-outlined" id="menu-hamburguer" onclick="hamburguer()">
-            <svg class="hamburguer" xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px" fill="#e8eaed"><path d="M120-240v-66.67h720V-240H120Zm0-206.67v-66.66h720v66.66H120Zm0-206.66V-720h720v66.67H120Z"/></svg>
-            </span>
+            <a href='index.html'><img src="assets/Logo.png" alt="Logo Sportify"></a>
+            <nav>
+                <ul id='MenuItems'>
+                    <li><a href='index.html'>Home</a></li>
+                    <li><a href='daoplay copy.html'>Da o play</a></li>
+                    <li><a href='planos.html'>Planos Empresas</a></li>
+                </ul>
+            </nav>
         </div>
     </header>
     <div id="form-ui">
-        <form action="" method="post" id="form4">
+        <form action="" method="post" id="form">
             <div id="form-body">
                 <div id="welcome-lines">
                     <div id="welcome-line-1">
                         <h3 class="t1">Sportify</h3>
                     </div>
-                    <div id="welcome-line-2">Escolha uma Opção</div>
-                    <div id="buttonsp">
-
-                        <a href="daoplay_atleta.html" class="buttonPF">
-                            <h2 class="pf">Pessoa Fisica</h2>
-                            <img src="img/person.png" alt="">
-                        </a>
-
-                        <a href="daoplay_club.html" class="buttonPJ">
-                            <h2 class="pj">Pessoa Juridica</h2>
-                            <img src="img/apartment_24.png" alt="">
-                        </a>
+                    <div id="welcome-line-2">
+                        <h4 class="sbt">Cadastro do Atleta</h4>
                     </div>
                 </div>
+                <div id="input-area">
+                    <h4>Nome:</h4>
+                    <div>
+                        <input class="form-inp" placeholder="Nome Completo" type="text" required autofocus="">
+                    </div>
+
+                    <div class="radio-input">
+                        <h4 class="sex">Sexo:</h4>
+                        <h4 class="sex">Homem</h4>
+                        <input type="radio" id="value-1" name="value-radio" value="value-1">
+                        <div class="circle">
+                        </div>
+                        <h4 class="sex">Mulher</h4>
+                        <input checked="" type="radio" id="value-2" name="value-radio" value="value-2">
+                        <div class="circle">
+                        </div>
+                    </div>
+                    <h4>Data de Nascimento:</h4>
+                    <div>
+                        <input class="form-inp" placeholder="" type="date" required autofocus="">
+                    </div>
+                    <h4>Cidade:</h4>
+                    <div>
+                        <input class="form-inp" placeholder="Cidade" type="text" required autofocus="">
+                    </div>
+                    <h4>Telefone:</h4>
+                    <div>
+                        <input class="form-inp" placeholder="(xx)xxxx-xxxx" type="tel" required autofocus="">
+                    </div>
+                    <h4>Email:</h4>
+                    <div>
+                        <input class="form-inp" placeholder="Email" type="email" required autofocus="">
+                    </div>
+                    <h4>Senha:</h4>
+                    <div>
+                        <input class="form-inp" placeholder="Senha" type="password" required autofocus="">
+                    </div>
+                </div>
+                <div id="submit-button-cvr">
+                    <button id="submit-button" type="submit">Login</button>
+                </div>
+                <div id="forgot-pass">
+                    <a href="#">Esqueu sua Senha?</a>
+                </div>
+                <div id="bar"></div>
             </div>
         </form>
     </div>
@@ -75,29 +103,29 @@
 
 
             <ul>
-                    
+
                 <li>
                     <a href="index.html">Home</a>
                 </li>
-    
+
                 <li>
                     <a href="daoplay copy.html">Da o Play</a>
                 </li>
+
                 <li>
-                    <a href="perfil.html">Perfil</a>
+                    <a href='planos.html'>Planos Empresas</a>
                 </li>
-    
-                <li>
-                    <a href="#">Contato</a>
-                </li>
-    
-    
+
+
             </ul>
 
 
             <p class="copy-right">Copyright &copy;2024; Criado por <strong>Guilherme Augusto, Felipe Caldeira e Daniel
                     Simonian</strong> </p>
+
+
         </section>
     </footer>
-    <script src="js/script.js"></script>
+
+
 </body>

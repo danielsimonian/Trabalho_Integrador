@@ -274,7 +274,7 @@ aside {
         display: flex;
         flex-direction: column;    
     }
-
+    
     aside {
         margin: 20px;
     }
@@ -289,32 +289,10 @@ aside {
 
     .up {
         display: grid;
-        grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr 1fr 1fr;
+        gap: 5px;
     }
 
-    .esporte {
-        grid-column: 1 / 2;
-        grid-row: 1 / 2;
-    }
-
-    .endereco {
-        grid-column: 1 / 2;
-        grid-row: 2 / 3;
-    }
-
-    .hora {
-        grid-column: 1 / 2;
-        grid-row: 3 / 4;
-    }
-
-    .group {
-        grid-column: 1 / 2;
-        grid-row: 4 / 3;
-    }
-
-    .div-bt-p {
-        grid-column: 2 / -1;
-    }
+   
     
 }

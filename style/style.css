@@ -41,6 +41,10 @@
     background-color:var(--preto);
 }
 
+.logo-header {
+    width: 170px;
+}
+
 .navbar {
     display: flex;
     align-items: center;

@@ -63,6 +63,7 @@ h4{
 }
 
 .t1{
+    padding-top: 25px;
     font-family: var(--arthos);
 }
 #form-ui{
@@ -77,9 +78,9 @@ flex-wrap: wrap;
     margin-bottom: 2%;
     width: 400px;
     height: 840px;
-    padding: 25px;
     background-color: #1b1a1a;
     border-radius: 10px;
+    padding-left: 25px;
 }
 
 #form2 {
@@ -87,7 +88,6 @@ flex-wrap: wrap;
     margin-bottom: 2%;
     width: 400px;
     height: 720px;
-    padding: 25px;
     background-color: var(--amarelo);
     border-radius: 10px;
 }
@@ -293,10 +293,10 @@ flex-wrap: wrap;
 }
 
 #form4{
+    display: flex;
+    flex-wrap: wrap;
     margin-top: 2%;
-    margin-bottom: 2%;
-    width: 400px;
-    height: 400px;
+    margin-bottom: 30vh;
     padding: 25px;
     background-color: #1b1a1a;
     border-radius: 10px;
@@ -304,10 +304,12 @@ flex-wrap: wrap;
 }
 
 .pj{
+    margin-top: 4%;
     color: white;    
 }
 
 .pf{
+    margin-top: 6%;
     color: white;
 }
 
@@ -344,9 +346,11 @@ flex-wrap: wrap;
 }
 
 #buttonsp{
+    display: flex;
+    flex-wrap: wrap;
     margin-top: 20%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 
 }

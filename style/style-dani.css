@@ -276,7 +276,8 @@ aside {
     }
     
     aside {
-        margin: 20px;
+        margin: auto;
+        padding: 0;
     }
 
     .esportes {
@@ -287,12 +288,20 @@ aside {
         font-size: 25px;
     }
 
+    .botao {
+        width: 150px;
+    }
+
+
     .up {
         display: grid;
         grid-template-rows: 1fr 1fr 1fr 1fr;
         gap: 5px;
     }
 
-   
+   .lista-de-esportes {
+       width: 80%;
+       margin: auto;
+   }
     
 }

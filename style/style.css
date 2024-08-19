@@ -359,7 +359,7 @@ iframe {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin-top: 10px;
+    margin-top: 50px;
 }
 
 .article-basic {
@@ -409,8 +409,7 @@ iframe {
     font-family: Arial, Helvetica, sans-serif;
 	background-color: var(--preto);
     height: 170px;
-
-
+    margin-top: 50px;
 }
 .social {
 	text-align: center;

@@ -458,9 +458,8 @@ iframe {
 .footer {
     font-family: Arial, Helvetica, sans-serif;
 	background-color: var(--preto);
-    margin-top: 9%;
     height: 170px;
-    padding: 10px;
+
 
 }
 .social {
@@ -508,7 +507,6 @@ iframe {
 
 .copy-right {
 	text-align: center;
-	padding-bottom: 30px;
 	color: whitesmoke;
 }
 

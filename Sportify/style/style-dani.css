@@ -190,15 +190,15 @@ aside {
 .lista-de-esportes {
     display: flex;
     flex-direction: column;
+    gap: 10px;
 }
 
 .esportes-open {
     display: grid;
-    grid-template-rows: 2fr 1fr;
+    grid-template-rows: 2fr;
     background-color: var(--cinza);
     border-radius: 8px;
-    margin-right: 10px;
-    margin-top: 10px;
+    margin: 15px;
 }
 
 .up {
@@ -223,20 +223,13 @@ aside {
     padding-bottom: 10px;
 }
 
-/* ESCONDE */
 .down-hide {
     display: none;
 }
 
-.esportes-open-hide {
-    display: grid;
-    grid-template-rows: 1fr;
-    background-color: var(--cinza);
-    border-radius: 8px;
-    margin-right: 10px;
-    margin-top: 10px;
-} /* FIM DO ESCONDE */
-
+.dropdown-rotate {
+    rotate: 180deg;
+}
 
 .texto-grande {
     font-size: 20px;
@@ -287,20 +280,6 @@ aside {
 
     .esportes {
         flex-flow: column;
-    }
-
-    .botao-pequeno {
-        margin-top: -10px;
-    }
-
-    .dropdown {
-        display: none;
-    }
-
-    .dropdown-cel {
-        display: block;
-        width: 30px;
-        margin-top: -20px;
     }
 
     .texto-grande {

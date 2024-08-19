@@ -1,3 +1,4 @@
+/*
 function openClose() {
     var element = document.getElementById("dropdown");
     var open = document.getElementById("down-hide");
@@ -13,3 +14,23 @@ function openClose() {
         }
     }
 }
+*/
+
+function openClose() {
+    var element = document.getElementById("down");  
+    var dropdrown = document.getElementById("dropdown")  
+
+    if (element.classList == "down"){
+        element.classList.add("down-hide");
+        element.classList.remove("down");
+        dropdrown.classList.remove("dropdown-rotate");
+    } else {
+        if (element.classList == "down-hide"){
+            element.classList.add("down");
+            element.classList.remove("down-hide");
+            dropdrown.classList.add("dropdown-rotate");
+        }
+        }
+    }
+    
+

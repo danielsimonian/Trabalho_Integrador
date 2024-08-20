@@ -8,18 +8,18 @@
     <link rel="shortcut icon" href="../assets/Frame 1.png" type="image/x-icon">
     <link rel="stylesheet" href="style/style.css">
     <link rel="stylesheet" href="style/style-fe.css">
-    <link rel="stylesheet" href="../Trabalho_Integrador/style/style-dani.css">
+    <link rel="stylesheet" href="style/style-dani.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
         integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-        <link rel="shortcut icon" href="assets/Frame 1.png" type="image/x-icon">
+    <link rel="shortcut icon" href="assets/Frame 1.png" type="image/x-icon">
     <title>Sportify</title>
 </head>
 
 <body class="body-home">
     <header>
         <div class="div-nav-logo">
-            <a href='index.html'><img src="assets/Logo-Branca.png" alt="Logo Sportify" class="logo-header"></a>    
+            <a href='index.html'><img src="assets/Logo-Branca.png" alt="Logo Sportify" class="logo-header"></a>
         </div>
         <nav id="menu-itens" class="menu-itens-hide">
             <ul>
@@ -32,90 +32,68 @@
         </nav>
         <div class="div-hamburguer">
             <span class="material-symbols-outlined" id="menu-hamburguer" onclick="hamburguer()">
-            <svg class="hamburguer" xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px" fill="#e8eaed"><path d="M120-240v-66.67h720V-240H120Zm0-206.67v-66.66h720v66.66H120Zm0-206.66V-720h720v66.67H120Z"/></svg>
+                <svg class="hamburguer" xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960"
+                    width="40px" fill="#e8eaed">
+                    <path
+                        d="M120-240v-66.67h720V-240H120Zm0-206.67v-66.66h720v66.66H120Zm0-206.66V-720h720v66.67H120Z" />
+                </svg>
             </span>
         </div>
     </header>
-    <main>
-        <style>
-            main {
-                display: flex;
-                flex-direction: column;
-                align-items: center;
-                width: 80%;
-                background-color: black;
-                text-align: center;
-                margin: 10px auto;
-                padding: 20px;
-                border-radius: 10px;
-                height: 100vh;
-            }
+    <div id="form-ui">
+        <form action="" method="post" id="form4">
+            <div id="form-body">
+                <div id="welcome-lines">
+                    <div id="welcome-line-1">
+                        <h3 class="t1">Sportify</h3>
+                    </div>
+                    <div id="welcome-line-2">Escolha uma Opção</div>
+                    <div id="buttonsp">
 
-            h1, h2 {
-                color: white;
-            }
+                        <a href="daoplay_atleta.html" class="buttonPF">
+                            <h2 class="pf">Pessoa Fisica</h2>
+                            <img src="img/person.png" alt="">
+                        </a>
 
-            h2 {
-                font-size: 3em;
-                color: #ffc72c;
-                border: solid 1px #ffc72c;
-                border-radius: 5px;
-                padding: 10px;
-            }
-
-            h2:hover {
-                background-color: rgba(255, 255, 255, 0.173);
-            }
-
-            .atleta-clube {
-                display: flex;
-                margin-top: 30px;
-                gap: 20px;
-            }
-        </style>
-        <div>
-            <h1>Quem é você?</h1>
-        </div>
-        <div class="atleta-clube">
-            <a href="daoplay_atleta.html"><div>
-                <h2>Atleta</h2>
-            </div></a>
-            <a href="daoplay_club.html"><div>
-                <h2>Clube</h2>
-            </div></a>
-        </div>
-    </main>
-        
+                        <a href="daoplay_club.html" class="buttonPJ">
+                            <h2 class="pj">Pessoa Juridica</h2>
+                            <img src="img/apartment_24.png" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </form>
     </div>
     <footer>
         <section class="footer">
-                <div class="social">
-                    
-                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
-        
-                    <a href=""><i class="fa-brands fa-facebook"></i></a>
-        
-                    <a href=""><i class="fa-brands fa-square-twitter"></i></a>
-        
-                    <a href=""><i class="fa-brands fa-youtube"></i></a>
-                </div>
-                <ul>
-                    <li>
-                        <a href="index.html">Home</a>
-                    </li>
-                    <li>
-                        <a href="daoplay.html">Da o Play</a>
-                    </li>
-                    <li>
-                        <a href="perfil.html">Perfil</a>
-                    </li>
-                    <li><a href="planos.html">Planos</a></li>
-                    <li>
-                        <a href="#">Contato</a>
-                    </li>
-                </ul>
-                <p class="copy-right">Copyright &copy;2024; Criado por <strong>Daniel Simonian, Felipe Caldeira e Guilherme Augusto</strong> </p>
-            </section>
+            <div class="social">
+
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+
+                <a href=""><i class="fa-brands fa-facebook"></i></a>
+
+                <a href=""><i class="fa-brands fa-square-twitter"></i></a>
+
+                <a href=""><i class="fa-brands fa-youtube"></i></a>
+            </div>
+            <ul>
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="daoplay.html">Da o Play</a>
+                </li>
+                <li>
+                    <a href="perfil.html">Perfil</a>
+                </li>
+                <li><a href="planos.html">Planos</a></li>
+                <li>
+                    <a href="#">Contato</a>
+                </li>
+            </ul>
+            <p class="copy-right">Copyright &copy;2024; Criado por <strong>Daniel Simonian, Felipe Caldeira e Guilherme
+                    Augusto</strong> </p>
+        </section>
     </footer>
     <script src="js/script.js"></script>
 </body>

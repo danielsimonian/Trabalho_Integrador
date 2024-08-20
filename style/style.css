@@ -71,7 +71,7 @@
     margin-bottom: 5px;
     font-size: 30px;
     font-weight: 500;
-    color: black;
+    color: #1b1a1a;
     text-align: center;
 }
 
@@ -189,7 +189,7 @@ p.account a:hover{
 .services h2 {
     font-family: var(--arthos);
     margin-bottom: 40px;
-    color: black;
+    color: #1b1a1a;
     line-height: 40px;
     font-size: 30px;
     font-weight: 500;
@@ -233,7 +233,7 @@ p.account a:hover{
 .h2-esportes {
     font-family: var(--arthos);
     margin-bottom: 40px;
-    color: black;
+    color: #1b1a1a;
     line-height: 40px;
     font-size: 30px;
     font-weight: 500;
@@ -244,7 +244,7 @@ p.account a:hover{
 .card {
     margin: 10px;
     background-color: #FFD700;
-    color: #000;
+    color: #1b1a1a;
     width: 250px;
     border-radius: 15px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
@@ -255,7 +255,7 @@ p.account a:hover{
 
 .card img {
     width: 100%;
-    border-bottom: 5px solid #000;
+    border-bottom: 5px solid #1b1a1a;
 }
 .card h2 {
     font-size: 24px;
@@ -407,7 +407,7 @@ iframe {
 /*-------------------- FOOTER ---------------------*/
 .footer {
     font-family: Arial, Helvetica, sans-serif;
-	background-color: var(--preto);
+	background-color: #1b1a1a;
     height: 170px;
     margin-top: 50px;
 }

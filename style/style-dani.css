@@ -51,7 +51,7 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    background-color: black;
+    background-color: #1b1a1a;
     padding: 20px;
 }
 

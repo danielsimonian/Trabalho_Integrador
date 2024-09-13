@@ -297,7 +297,7 @@ flex-wrap: wrap;
     flex-wrap: wrap;
     margin-top: 2%;
     margin-bottom: 30vh;
-    padding: 25px;
+    padding: 25px 10px 25px 10px;
     background-color: #1b1a1a;
     border-radius: 10px;
 
@@ -331,8 +331,8 @@ flex-wrap: wrap;
     border: solid 2px white;
     cursor: pointer;
     background: none;
-    width: 150px;
-    height: 150px;
+    width: 40%;
+    height: 20%;
 }
 
 .buttonPJ{
@@ -341,8 +341,8 @@ flex-wrap: wrap;
     border: solid 2px white;
     cursor: pointer;
     background: none;
-    width: 150px;
-    height: 150px;
+    width: 40%;
+    height: 20%;
 }
 
 #buttonsp{

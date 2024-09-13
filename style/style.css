@@ -275,7 +275,6 @@ p.account a:hover{
 }
 
 .cards-esportes h3 {
-    font-family: var(--bayon);
     color: black;
     line-height: 40px;
     font-size: 30px;
@@ -463,9 +462,6 @@ iframe {
 /*---------------------- MEDIA QUERY ------------------------------------*/
 /*-------- Celular ----------*/
 @media screen and (max-width:932px){
-   
-
-
     .login-form .main{
         margin: 10px;
         flex-direction: column;
@@ -574,16 +570,19 @@ iframe {
         display: block;
         margin: auto;
         text-align: center;
-        width: 800px;
+        width: 600px;
     }
 
     .container-cat > h1{
         font-size: 2.5em;
     }
 
-    .iframegeral {
-        margin-top: 50px;
-        height: 300px;
-}
+    .iframe-compra-geral {
+        margin-top: 100px;
+        justify-content: center;
+        text-align: center;
+    }
 
+    .section-frame {
+    }
 }

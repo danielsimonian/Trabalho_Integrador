@@ -68,7 +68,7 @@ h4{
 }
 #form-ui{
 display: flex;
-justify-content: space-around;
+justify-content: center;
 
 
 flex-wrap: wrap;
@@ -294,22 +294,20 @@ flex-wrap: wrap;
 
 #form4{
     display: flex;
-    flex-wrap: wrap;
-    margin-top: 2%;
-    margin-bottom: 30vh;
+    margin-top: 5%;
+    margin-bottom: 8%;
     padding: 25px 10px 25px 10px;
     background-color: #1b1a1a;
     border-radius: 10px;
-
 }
 
 .pj{
-    margin-top: 4%;
+
     color: white;    
 }
 
 .pf{
-    margin-top: 6%;
+
     color: white;
 }
 
@@ -350,7 +348,7 @@ flex-wrap: wrap;
     flex-wrap: wrap;
     margin-top: 20%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 
 }

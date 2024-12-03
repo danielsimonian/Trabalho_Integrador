@@ -30,7 +30,7 @@ function openClose() {
             element.classList.remove("down-hide");
             dropdrown.classList.add("dropdown-rotate");
         }
-        }
+        } 
     }
 
 function hamburguer(){

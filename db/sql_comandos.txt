@@ -1,0 +1,57 @@
+CREATE TABLE IF NOT EXISTS `db_sportify`.`tb_user` (
+  `id_user` INT NOT NULL AUTO_INCREMENT,
+  `nome_user` VARCHAR(60) NOT NULL,
+  `genero` VARCHAR(52) NOT NULL,
+  `cpf` INT NOT NULL,
+  `nascimento` DATE NOT NULL,
+  `email` VARCHAR(60) NOT NULL,
+  `whatsapp` INT NOT NULL,
+  `senha` VARCHAR(10) NOT NULL,
+  `cidade` VARCHAR(45) NOT NULL,
+  `esporte_preferido` VARCHAR(45) NOT NULL,
+  PRIMARY KEY (`id_user`),
+  UNIQUE INDEX `id_user_UNIQUE` (`id_user` ASC) VISIBLE,
+  UNIQUE INDEX `cpf_UNIQUE` (`cpf` ASC) VISIBLE,
+  UNIQUE INDEX `email_UNIQUE` (`email` ASC) VISIBLE)
+ENGINE = InnoDB
+
+
+CREATE TABLE IF NOT EXISTS `db_sportify`.`tb_evento` (
+  `id_evento` INT NOT NULL,
+  `id_user_organizador` INT NOT NULL,
+  `nome_evento` VARCHAR(45) NOT NULL,
+  `quantidade_players` INT NOT NULL,
+  `preco` INT NOT NULL,
+  `endereco` VARCHAR(45) NOT NULL,
+  `cidade` VARCHAR(45) NOT NULL,
+  `estado` VARCHAR(45) NOT NULL,
+  INDEX `id_user_idx` (`id_user_organizador` ASC) VISIBLE,
+  PRIMARY KEY (`id_evento`),
+  UNIQUE INDEX `nome_evento_UNIQUE` (`nome_evento` ASC) VISIBLE,
+  CONSTRAINT `id_user_organizador`
+    FOREIGN KEY (`id_user_organizador`)
+    REFERENCES `db_sportify`.`tb_user` (`id_user`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION)
+ENGINE = InnoDB
+
+
+CREATE TABLE IF NOT EXISTS `db_sportify`.`tb_interessadas` (
+  `id_interessadas` INT NOT NULL AUTO_INCREMENT,
+  `id_user` INT NOT NULL,
+  `id_evento` INT NOT NULL,
+  `confirmado` TINYINT NOT NULL DEFAULT 0,
+  PRIMARY KEY (`id_interessadas`),
+  INDEX `id_user_idx` (`id_user` ASC) VISIBLE,
+  INDEX `id_evento_idx` (`id_evento` ASC) VISIBLE,
+  CONSTRAINT `id_user`
+    FOREIGN KEY (`id_user`)
+    REFERENCES `db_sportify`.`tb_user` (`id_user`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION,
+  CONSTRAINT `id_evento`
+    FOREIGN KEY (`id_evento`)
+    REFERENCES `db_sportify`.`tb_evento` (`id_evento`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION)
+ENGINE = InnoDB

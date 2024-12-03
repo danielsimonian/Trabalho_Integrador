@@ -1,0 +1,462 @@
+[33mcommit 3b00ad6c43f5785f6ed5e5f60653388117a4c005[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Daniel Simonian <danielsimonianti@gmail.com>
+Date:   Tue Dec 3 11:04:22 2024 -0300
+
+    db
+
+[33mcommit ec72ccd2148fa0039d8a786cb83108daf48f8dc5[m
+Author: Caldeirafe <felipecaldeira35@gmail.com>
+Date:   Thu Nov 28 09:24:47 2024 -0300
+
+    comit
+
+[33mcommit 27af39adeae6d4548c82a32fc726ba470d02ab1e[m
+Author: Caldeirafe <felipecaldeira35@gmail.com>
+Date:   Mon Nov 4 11:26:16 2024 -0300
+
+    bimba
+
+[33mcommit 848a6a79a4148c7fca68767b16dc7289e032fb86[m
+Author: Caldeirafe <felipecaldeira35@gmail.com>
+Date:   Fri Nov 1 11:23:56 2024 -0300
+
+    Update style-fe.css
+
+[33mcommit c19b9e2d3cd870c3e65971bc48606644531294cb[m
+Merge: f77dc64 ab6e6e6
+Author: danielsimonian <90415593+danielsimonian@users.noreply.github.com>
+Date:   Fri Sep 13 08:00:38 2024 -0300
+
+    Merge branch 'main' of https://github.com/danielsimonian/Trabalho_Integrador
+
+[33mcommit f77dc6460255af46c16be110e84b310cec7f4668[m
+Author: danielsimonian <90415593+danielsimonian@users.noreply.github.com>
+Date:   Fri Sep 13 08:00:24 2024 -0300
+
+    Update style-dani.css
+
+[33mcommit ab6e6e670408bbed4edf5756e1aba77e4ada1278[m
+Author: GuilhermeACSM <zguilhermegn@gmail.com>
+Date:   Fri Aug 23 09:37:17 2024 -0300
+
+    Atualizado
+
+[33mcommit 1153cbb848d4fed9ce4417c0d81728d3a97a12c3[m
+Author: GuilhermeACSM <zguilhermegn@gmail.com>
+Date:   Tue Aug 20 10:51:53 2024 -0300
+
+    Atualizado
+
+[33mcommit 87e4149f347308adc4b91b4e1451d61f920e5156[m
+Author: Caldeirafe <felipecaldeira35@gmail.com>
+Date:   Mon Aug 19 23:33:08 2024 -0300
+
+    Update perfil_proximos_jogos.html
+
+[33mcommit 513587106eb322f4811e7ea7365eedff4afdf48d[m
+Author: Caldeirafe <felipecaldeira35@gmail.com>
+Date:   Mon Aug 19 23:06:06 2024 -0300
+
+    daoplay consertado
+
+[33mcommit 3cf41b8f591a44fed1ea5f9595fed91dedba3a6a[m
+Author: Guilherme Augusto <zguilhermegn@gmail.com>
+Date:   Mon Aug 19 19:10:01 2024 -0300
+
+    Atualizado
+
+[33mcommit 1d5dd2e4a48058c0c30ede65be8d4ee667b7a43f[m
+Author: danielsimonian <danielsimonianti@gmail.com>
+Date:   Mon Aug 19 17:12:01 2024 -0300
+
+    DONE!
+
+[33mcommit 24b3a1ecd1e54bd72fa2b34f4f549da316319330[m
+Author: danielsimonian <90415593+danielsimonian@users.noreply.github.com>
+Date:   Mon Aug 19 11:55:40 2024 -0300
+
+    sos
+
+[33mcommit a71381fd430e4c0546da659d8fa2eebe6ba4e15d[m
+Merge: fdbd52d fcf2736
+Author: Caldeirafe <felipecaldeira35@gmail.com>
+Date:   Mon Aug 19 11:12:31 2024 -0300
+
+    Merge branch 'main' of https://github.com/danielsimonian/Trabalho_Integrador
+
+[33mcommit fdbd52d0ace54e05c8387d1c5afc1072d002a638[m
+Author: Caldeirafe <felipecaldeira35@gmail.com>
+Date:   Mon Aug 19 11:12:19 2024 -0300
+
+    cu
+
+[33mcommit fcf27368007ffea5343388b48ff7dbfe82f16b01[m
+Merge: d9fc6e2 7c9fd02
+Author: GuilhermeACSM <zguilhermegn@gmail.com>
+Date:   Mon Aug 19 11:09:55 2024 -0300
+
+    Merge branch 'main' of https://github.com/danielsimonian/Trabalho_Integrador
+
+[33mcommit d9fc6e2669c0f95dd1c7ac537bd91a702f6d9b14[m
+Merge: dd984bf aa0199f
+Author: GuilhermeACSM <zguilhermegn@gmail.com>
+Date:   Mon Aug 19 11:09:46 2024 -0300
+
+    Merge branch 'main' of https://github.com/danielsimonian/Trabalho_Integrador
+
+[33mcommit 7c9fd02758f02ee080a7201b33c7a3a4744c6e19[m
+Merge: 41d7823 aa0199f
+Author: danielsimonian <90415593+danielsimonian@users.noreply.github.com>
+Date:   Mon Aug 19 11:09:41 2024 -0300
+
+    Merge branch 'main' of https://github.com/danielsimonian/Trabalho_Integrador
+
+[33mcommit dd984bf59fd7fa96245669c4ac731db5d0e16b27[m
+Author: GuilhermeACSM <zguilhermegn@gmail.com>
+Date:   Mon Aug 19 11:09:38 2024 -0300
+
+    Atualizado
+
+[33mcommit 41d7823daf5d4cd006dc8ed4b3c250b6da656b82[m
+Author: danielsimonian <90415593+danielsimonian@users.noreply.github.com>
+Date:   Mon Aug 19 11:09:30 2024 -0300
+
+    sos
+
+[33mcommit aa0199fcebda2cf6d26318c2d195f6518f0887e4[m
+Merge: 4f25c60 eafb921
+Author: Caldeirafe <felipecaldeira35@gmail.com>
+Date:   Mon Aug 19 10:59:46 2024 -0300
+
+    Merge branch 'main' of https://github.com/danielsimonian/Trabalho_Integrador
+
+[33mcommit eafb92167314b81ae0870785803a1226e0bad094[m
+Merge: 776b40b 07a8047
+Author: danielsimonian <90415593+danielsimonian@users.noreply.github.com>
+Date:   Mon Aug 19 10:59:06 2024 -0300
+
+    Merge branch 'main' of https://github.com/danielsimonian/Trabalho_Integrador
+
+[33mcommit 776b40bdfefb10f008067002cb2c4f79a722e138[m
+Author: danielsimonian <90415593+danielsimonian@users.noreply.github.com>
+Date:   Mon Aug 19 10:58:15 2024 -0300
+
+    caos
+
+[33mcommit 4f25c60df90a89f080f62d6bcdcd5b6fc55c4c78[m
+Merge: 73237a4 07a8047
+Author: Caldeirafe <felipecaldeira35@gmail.com>
+Date:   Mon Aug 19 10:00:25 2024 -0300
+
+    Merge branch 'main' of https://github.com/danielsimonian/Trabalho_Integrador
+
+[33mcommit 73237a4c9a7c154653268b5bfbfe3b46e6f87a55[m
+Author: Caldeirafe <felipecaldeira35@gmail.com>
+Date:   Mon Aug 19 10:00:21 2024 -0300
+
+    atualizando site
+
+[33mcommit 07a804718a7c7831be6f555a721fdc5cdf0661f7[m
+Author: GuilhermeACSM <zguilhermegn@gmail.com>
+Date:   Mon Aug 19 09:59:03 2024 -0300
+
+    Atualizado
+
+[33mcommit 29793fa39b1cd46cff1e9b442d73eeb212d67f15[m
+Author: GuilhermeACSM <zguilhermegn@gmail.com>
+Date:   Mon Aug 19 09:43:09 2024 -0300
+
+    Atualizado
+
+[33mcommit cf57087fad59d1ee908e2a239fb0dcbb7712fa7b[m
+Author: GuilhermeACSM <zguilhermegn@gmail.com>
+Date:   Mon Aug 19 09:41:37 2024 -0300
+
+    Atualizado
+
+[33mcommit 53e3f4c3624ca1446d8ab079208199a8b1ede318[m
+Author: GuilhermeACSM <zguilhermegn@gmail.com>
+Date:   Mon Aug 19 09:35:22 2024 -0300
+
+    Atualizado
+
+[33mcommit 92758c6b18802e132aa6e58e44832b99eab1c0ed[m
+Author: GuilhermeACSM <zguilhermegn@gmail.com>
+Date:   Mon Aug 19 09:24:47 2024 -0300
+
+    Atualizado
+
+[33mcommit 8d87746617be9576326a26f1fae44a873e9e8b06[m
+Author: GuilhermeACSM <zguilhermegn@gmail.com>
+Date:   Mon Aug 19 08:49:55 2024 -0300
+
+    atualizado
+
+[33mcommit 6afdc4fcfc422979420a7e3e098450d96ab637aa[m
+Author: GuilhermeACSM <zguilhermegn@gmail.com>
+Date:   Mon Aug 19 08:49:31 2024 -0300
+
+    Atualizado
+
+[33mcommit 8aa0a052b5e25de1afc0ed169597ca27a9abca00[m
+Author: GuilhermeACSM <zguilhermegn@gmail.com>
+Date:   Mon Aug 19 08:34:40 2024 -0300
+
+    Atualizado
+
+[33mcommit bca6c72d2926b82b771e7df8523b181223ed57ff[m
+Merge: 5f8ef6c db43c76
+Author: danielsimonian <90415593+danielsimonian@users.noreply.github.com>
+Date:   Mon Aug 19 08:29:05 2024 -0300
+
+    Merge branch 'main' of https://github.com/danielsimonian/Trabalho_Integrador
+
+[33mcommit 5f8ef6c07ddcc176c09172210e32a250ca953b86[m
+Author: danielsimonian <90415593+danielsimonian@users.noreply.github.com>
+Date:   Mon Aug 19 08:28:30 2024 -0300
+
+    organização
+
+[33mcommit db43c76ee8abcd29e17edc3dfb10c75f5f77bce1[m
+Author: GuilhermeACSM <zguilhermegn@gmail.com>
+Date:   Mon Aug 19 08:28:30 2024 -0300
+
+    atualizado
+
+[33mcommit ad0061da7fce613c8e42bfd804efaa82423bd873[m
+Merge: 0af1295 13a76a3
+Author: danielsimonian <danielsimonianti@gmail.com>
+Date:   Sun Aug 18 22:44:31 2024 -0300
+
+    Merge branch 'main' of https://github.com/danielsimonian/Trabalho_Integrador
+
+[33mcommit 0af1295c771bd6f0d699895db0eef835896b4137[m
+Author: danielsimonian <danielsimonianti@gmail.com>
+Date:   Sun Aug 18 22:44:27 2024 -0300
+
+    js
+
+[33mcommit 13a76a30d3e3b56b7c28b25186040175a8172407[m
+Author: Guilherme Augusto <zguilhermegn@gmail.com>
+Date:   Sun Aug 18 20:04:16 2024 -0300
+
+    Atualizado
+
+[33mcommit 7092d62d809dd6009e469452d8059a0435bc1bbf[m
+Author: Guilherme Augusto <zguilhermegn@gmail.com>
+Date:   Sun Aug 18 20:02:28 2024 -0300
+
+    Atualizado
+
+[33mcommit 0a9d34c28d42749c979aa2750509807274c68f8f[m
+Author: Guilherme Augusto <zguilhermegn@gmail.com>
+Date:   Sat Aug 17 16:55:32 2024 -0300
+
+    Atualizado
+
+[33mcommit 1245c6c2b185d4451cb9971fad08d3b9f2f855b6[m
+Merge: 999d8da a5d5a88
+Author: danielsimonian <danielsimonianti@gmail.com>
+Date:   Fri Aug 16 20:51:05 2024 -0300
+
+    Merge branch 'main' of https://github.com/danielsimonian/Trabalho_Integrador
+
+[33mcommit 999d8da564e2b715b4ec0e85a92580b52627635a[m
+Author: danielsimonian <danielsimonianti@gmail.com>
+Date:   Fri Aug 16 20:51:02 2024 -0300
+
+    js
+
+[33mcommit a5d5a88bd58cfab4ab877617d3880bad119e0bce[m
+Author: Guilherme Augusto <zguilhermegn@gmail.com>
+Date:   Fri Aug 16 20:18:45 2024 -0300
+
+    Atualizado
+
+[33mcommit f9b391bc6fd3451a8056ac84123fd8f196078f2a[m
+Author: Caldeirafe <felipecaldeira35@gmail.com>
+Date:   Fri Aug 16 18:01:45 2024 -0300
+
+    atualização formulario
+
+[33mcommit 125185c1f15e866d69538c57fd20cf900eda3480[m
+Merge: 11b1cb7 396ec3d
+Author: Caldeirafe <felipecaldeira35@gmail.com>
+Date:   Fri Aug 16 12:01:02 2024 -0300
+
+    Merge branch 'main' of https://github.com/danielsimonian/Trabalho_Integrador
+
+[33mcommit 11b1cb7e27627537a4ad109c24a65d67c4c8c3e1[m
+Author: Caldeirafe <felipecaldeira35@gmail.com>
+Date:   Fri Aug 16 12:00:33 2024 -0300
+
+    formulario
+
+[33mcommit 396ec3d14f72571f716cf0d739b238ceccc700b4[m
+Merge: 48af686 492d15d
+Author: GuilhermeACSM <zguilhermegn@gmail.com>
+Date:   Fri Aug 16 11:52:27 2024 -0300
+
+    Merge branch 'main' of https://github.com/danielsimonian/Trabalho_Integrador
+
+[33mcommit 48af686fe45f16727d92f08a2a65227d6ab66684[m
+Author: GuilhermeACSM <zguilhermegn@gmail.com>
+Date:   Fri Aug 16 11:52:16 2024 -0300
+
+    Atualizado
+
+[33mcommit 492d15db80b38a687dc597532cbfc58945e9da66[m
+Author: danielsimonian <90415593+danielsimonian@users.noreply.github.com>
+Date:   Fri Aug 16 11:44:00 2024 -0300
+
+    sportify
+
+[33mcommit 07ff60b411167e493405b24f67eed0339804a54f[m
+Author: Guilherme Augusto <zguilhermegn@gmail.com>
+Date:   Thu Aug 15 22:58:21 2024 -0300
+
+    Atualizado
+
+[33mcommit a7894c0d2862fd11f325816470f04d10be3c7db2[m
+Author: Caldeirafe <felipecaldeira35@gmail.com>
+Date:   Thu Aug 15 17:44:17 2024 -0300
+
+    esportes
+
+[33mcommit 158c01acd0de1c0dd7c154460546227c74d5d7cc[m
+Merge: d19ae27 e06aeb8
+Author: Caldeirafe <felipecaldeira35@gmail.com>
+Date:   Thu Aug 15 12:00:01 2024 -0300
+
+    Merge branch 'main' of https://github.com/danielsimonian/Trabalho_Integrador
+
+[33mcommit d19ae277df4ad22d63f35a6d60fc40ebb9143fd8[m
+Author: Caldeirafe <felipecaldeira35@gmail.com>
+Date:   Thu Aug 15 11:58:16 2024 -0300
+
+    Esportes
+
+[33mcommit e06aeb836522536cd81dd099e6167e800cf1614b[m
+Merge: f374232 9f61033
+Author: GuilhermeACSM <zguilhermegn@gmail.com>
+Date:   Thu Aug 15 11:57:55 2024 -0300
+
+    Merge branch 'main' of https://github.com/danielsimonian/Trabalho_Integrador
+
+[33mcommit f3742321da8bee2cf96e4623cdb403495b0beb0d[m
+Author: GuilhermeACSM <zguilhermegn@gmail.com>
+Date:   Thu Aug 15 11:57:45 2024 -0300
+
+    atualizado
+
+[33mcommit 9f61033bddbacb2206be34fe3cfde7a3ad245e1f[m
+Merge: ef5f15a fedbb73
+Author: danielsimonian <90415593+danielsimonian@users.noreply.github.com>
+Date:   Thu Aug 15 11:57:25 2024 -0300
+
+    Merge branch 'main' of https://github.com/danielsimonian/Trabalho_Integrador
+
+[33mcommit ef5f15ac6afbde88f77affbef1d1b2f0762f6a7c[m
+Author: danielsimonian <90415593+danielsimonian@users.noreply.github.com>
+Date:   Thu Aug 15 11:57:09 2024 -0300
+
+    Sportify
+
+[33mcommit fedbb73d892737ef03d19cf64771009b1578be49[m
+Author: GuilhermeACSM <zguilhermegn@gmail.com>
+Date:   Thu Aug 15 11:45:53 2024 -0300
+
+    Atualizado
+
+[33mcommit 11bc11d3d04f5f06869bb6b972b16e309b3074cb[m
+Author: GuilhermeACSM <zguilhermegn@gmail.com>
+Date:   Thu Aug 15 08:22:53 2024 -0300
+
+    atualizado
+
+[33mcommit dfce1c71ab6df848eeb11cf54eed9e5301b0ff17[m
+Merge: 91bde5d 524ce7f
+Author: GuilhermeACSM <zguilhermegn@gmail.com>
+Date:   Wed Aug 14 11:56:40 2024 -0300
+
+    Merge branch 'main' of https://github.com/danielsimonian/Trabalho_Integrador
+
+[33mcommit 91bde5dba252eb49835d1e2a1afccc1d18a72e99[m
+Author: GuilhermeACSM <zguilhermegn@gmail.com>
+Date:   Wed Aug 14 11:56:37 2024 -0300
+
+    atua
+
+[33mcommit 524ce7f11c7ed7bddae97e918e460975e07dea91[m
+Author: danielsimonian <90415593+danielsimonian@users.noreply.github.com>
+Date:   Wed Aug 14 11:26:58 2024 -0300
+
+    sportify
+
+[33mcommit 78d1fdcd909b8d72761a5ba7ca4ebe190007922e[m
+Merge: f521715 957d230
+Author: danielsimonian <90415593+danielsimonian@users.noreply.github.com>
+Date:   Wed Aug 14 10:47:53 2024 -0300
+
+    Merge branch 'main' of https://github.com/danielsimonian/Trabalho_Integrador
+
+[33mcommit f521715e71f78753ddd6fc1b17f3c708ed6c6f07[m
+Author: danielsimonian <90415593+danielsimonian@users.noreply.github.com>
+Date:   Wed Aug 14 10:46:27 2024 -0300
+
+    sportify
+
+[33mcommit 957d2306a5bda8495fa5d96ded7bcf5718487a37[m
+Author: GuilhermeACSM <zguilhermegn@gmail.com>
+Date:   Wed Aug 14 10:45:50 2024 -0300
+
+    Atualizado
+
+[33mcommit ea1aad8609b12fc673b92eab6766dcb4eca76f46[m
+Author: GuilhermeACSM <zguilhermegn@gmail.com>
+Date:   Wed Aug 14 09:20:46 2024 -0300
+
+    Atualizado
+
+[33mcommit ea96249bb3b1a4a3f76d3e68b2e07879edc307b1[m
+Author: danielsimonian <90415593+danielsimonian@users.noreply.github.com>
+Date:   Wed Aug 14 09:02:42 2024 -0300
+
+    sportify
+
+[33mcommit 1f592b4676b778301aa9616f8e2bf94567734deb[m
+Merge: c47ef05 ffe39dc
+Author: danielsimonian <90415593+danielsimonian@users.noreply.github.com>
+Date:   Wed Aug 14 08:43:51 2024 -0300
+
+    Merge branch 'main' of https://github.com/danielsimonian/Trabalho_Integrador
+
+[33mcommit c47ef056003359c1a9aa4ab39535a90c6bdbbfb6[m
+Author: danielsimonian <90415593+danielsimonian@users.noreply.github.com>
+Date:   Wed Aug 14 08:43:22 2024 -0300
+
+    oi
+
+[33mcommit ffe39dc7db82dbdf280efaa38e393d42a931adbc[m
+Author: GuilhermeACSM <zguilhermegn@gmail.com>
+Date:   Wed Aug 14 08:39:43 2024 -0300
+
+    Atuaizado
+
+[33mcommit 6c1ea47e72d9a8908517c4617734073de6684ae9[m
+Author: GuilhermeACSM <zguilhermegn@gmail.com>
+Date:   Wed Aug 14 08:37:25 2024 -0300
+
+    Atualizado
+
+[33mcommit c1662ae5513a69b9bbdd9a6894cfbb0ecd98e3a6[m
+Author: GuilhermeACSM <zguilhermegn@gmail.com>
+Date:   Wed Aug 14 08:20:25 2024 -0300
+
+    Atualizado
+
+[33mcommit 36f612f7cf7ea4a0992f1d8c981ca9ba0ed8806a[m
+Author: danielsimonian <90415593+danielsimonian@users.noreply.github.com>
+Date:   Wed Aug 14 08:15:16 2024 -0300
+
+    Initial commit
